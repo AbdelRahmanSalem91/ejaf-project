@@ -1,0 +1,27 @@
+:root{
+    --main-color: #03132b;
+    --blue-color: #37a2fa;
+    --yellow-color: #fff200;
+    --orange-color: #ff8a00;
+    --green-color: #8dc63f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--main-color) !important;
+    color: #fff !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}

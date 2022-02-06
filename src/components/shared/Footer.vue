@@ -9,17 +9,17 @@
     <ul>
       <li>
         <a href="#">
-          <i class="fa fa-facebook"></i>
+          <i class="fab fa-facebook-f"></i>
         </a>
       </li>
       <li>
         <a href="#">
-          <i class="fa fa-twitter"></i>
+          <i class="fab fa-twitter"></i>
         </a>
       </li>
       <li>
         <a href="#">
-          <i class="fa fa-linkedin"></i>
+          <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
     </ul>
@@ -36,5 +36,12 @@ export default {
 .footer {
   height: 312px;
   border-top: 1px solid #020f21;
+}
+.footer,
+.footer a {
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer a:hover {
+  color: rgba(255, 255, 255, 1);
 }
 </style>

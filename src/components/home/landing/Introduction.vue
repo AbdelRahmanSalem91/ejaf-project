@@ -1,5 +1,5 @@
 <template>
-  <section class="intro text-center w-75 mt-5">
+  <section class="intro text-center mt-5">
     <h2 class="text-capitalize mb-4">ejaf technology</h2>
     <h3 class="mb-5">is your trusted source in IT services and support</h3>
     <description-component :desc="desc" />

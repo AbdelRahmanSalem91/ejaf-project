@@ -1,5 +1,7 @@
 <template>
-  <h2 class="h1 text-center text-capitalize my-5">{{ title }}</h2>
+  <h2 class="h1 text-capitalize my-5">
+    {{ title }}
+  </h2>
 </template>
 
 <script>

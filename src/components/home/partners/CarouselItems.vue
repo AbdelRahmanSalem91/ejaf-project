@@ -14,5 +14,7 @@ export default {
 <style scoped>
 img {
   transition: all 0.2s ease-in-out 0s;
+  max-width: 200px;
+  max-height: 200px;
 }
 </style>

@@ -1,12 +1,25 @@
 <template>
-  <section class="services">
-    <div class="container">
+  <section class="services mt-5 pt-4">
+    <div class="container text-center">
       <heading-component title="our services" class="title" />
       <heading-component title="what we offer for you" />
-      <description-component :desc="desc" class="desc" />
-      <div class="services__container d-flex justify-content-between flex-wrap">
+      <description-component :desc="desc" class="desc mt-3" />
+      <div
+        class="
+          services__container
+          d-flex
+          justify-content-between
+          flex-wrap
+          row
+          text-center
+        "
+      >
         <template v-for="(service, index) in services" :key="index">
-          <service-component :name="service.name" :src="service.src" />
+          <service-component
+            :name="service.name"
+            :src="service.src"
+            class="col-lg-3"
+          />
         </template>
       </div>
     </div>

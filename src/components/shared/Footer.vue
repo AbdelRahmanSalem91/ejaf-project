@@ -6,18 +6,18 @@
       &copy; 2021 EJAFTEC. ALL RIGHTS RESERVED. DESIGNED BY
       <a href="#">MAZAJNET</a>
     </span>
-    <ul>
-      <li>
+    <ul class="mt-5">
+      <li class="mx-3">
         <a href="#">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
-      <li>
+      <li class="mx-3">
         <a href="#">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
-      <li>
+      <li class="mx-3">
         <a href="#">
           <i class="fab fa-linkedin-in"></i>
         </a>
@@ -40,6 +40,7 @@ export default {
 .footer,
 .footer a {
   color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s all;
 }
 .footer a:hover {
   color: rgba(255, 255, 255, 1);

@@ -1,8 +1,10 @@
 <template>
-  <section class="contacts">
-    <div class="container d-flex">
-      <contact-form />
-      <contact-details />
+  <section class="contacts mt-5 py-5">
+    <div class="container pt-5">
+      <div class="row">
+        <contact-form class="col-lg-6" />
+        <contact-details class="col-lg-6 mt-sm-5" />
+      </div>
     </div>
   </section>
 </template>
@@ -15,5 +17,3 @@ export default {
   name: "contacts-section",
 };
 </script>
-
-<style></style>

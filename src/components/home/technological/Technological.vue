@@ -1,7 +1,7 @@
 <template>
   <section class="technological">
     <div class="container">
-      <heading-component title="technology success" />
+      <heading-component title="technology success" class="text-center" />
       <description-component :desc="desc" class="technological__desc" />
     </div>
   </section>

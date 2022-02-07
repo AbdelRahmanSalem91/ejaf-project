@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-details text-center w-50">
+  <div class="contact-details text-center">
     <img
       src="../../../assets/home/contacts/ejaf-tech-logo-icon.png"
       alt="Ejaf Tech"

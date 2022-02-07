@@ -1,6 +1,6 @@
 <template>
-  <div class="service-component w-25">
-    <div class="service">
+  <div class="service-component">
+    <div class="service mx-auto">
       <a href="#">
         <img
           :src="require('../../../assets/home/services/' + src)"

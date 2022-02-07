@@ -52,7 +52,6 @@ export default {
 .header {
   width: 100%;
   height: 100%;
-  height: 620px;
 }
 .header__nav {
   z-index: 10;

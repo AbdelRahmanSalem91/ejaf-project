@@ -1,9 +1,11 @@
 <template>
-  <services-section />
-  <technological-section />
-  <partners-section />
-  <contacts-section />
-  <blog-section />
+  <div class="container">
+    <services-section />
+    <technological-section />
+    <partners-section />
+    <contacts-section />
+    <blog-section />
+  </div>
 </template>
 
 <script>

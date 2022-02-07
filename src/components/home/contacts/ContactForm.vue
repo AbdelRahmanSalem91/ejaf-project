@@ -43,9 +43,7 @@
         </label>
       </div>
       <div class="text-start mt-4">
-        <button class="btn button text-white" type="submit">
-          Send Message
-        </button>
+        <button class="btn button" type="submit">Send Message</button>
       </div>
     </form>
   </div>

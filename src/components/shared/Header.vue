@@ -1,7 +1,7 @@
 <template>
   <div class="header position-relative">
     <navbar-component
-      class="position-fixed top-0 start-50 translate-middle-x header__nav"
+      class="position-fixed top-0 start-0 d-flex justify-content-between header__nav"
       :class="{ onScroll: !view.topOfPage }"
     ></navbar-component>
     <video
@@ -12,7 +12,9 @@
     >
       <source src="../../assets/home/landing/landing.mp4" type="video/mp4" />
     </video>
-    <landing-section />
+    <div class="container">
+      <landing-section />
+    </div>
   </div>
 </template>
 

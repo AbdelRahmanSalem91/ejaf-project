@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="footer d-flex justify-content-center align-items-center flex-column"
+    class="footer d-flex justify-content-center align-items-center flex-column text-center"
   >
     <span class="copyright">
       &copy; 2021 EJAFTEC. ALL RIGHTS RESERVED. DESIGNED BY

@@ -1,54 +1,40 @@
 <template>
   <section class="landing mt-5 pt-5">
-    <div class="container">
-      <div class="row flex-column">
-        <!-- <heading-component
-          title="software management"
-          class="landing__title text-center col-lg-6 w-lg-50 text-lg-start"
-        /> -->
-        <h2 class="h1">
-          <span class="auto-type text-uppercase">{{ typeValue }}</span>
-          <span class="fixed-type position-relative text-uppercase"
-            >solutions</span
-          >
-        </h2>
-        <div
-          class="
-            data
-            text-center
-            mx-5
-            text-center
-            col-lg-6
-            w-lg-50
-            d-lg-flex
-            justify-content-between
-            row
-          "
+    <div class="row flex-column">
+      <h2
+        class="h1 landing__title text-center col-lg-6 w-lg-50 text-lg-start my-5"
+      >
+        <span class="auto-type text-uppercase">{{ typeValue }}</span>
+        <span class="fixed-type position-relative text-uppercase"
+          >solutions</span
         >
-          <data-component
-            count="800+"
-            info="happy clients"
-            class="clients col-lg-3 mb-5"
-          />
-          <data-component
-            count="1900+"
-            info="projects completed"
-            class="projects col-lg-3 mb-5"
-          />
-          <data-component
-            count="30+"
-            info="business partners"
-            class="partners col-lg-3 mb-5"
-          />
-          <data-component
-            count="6"
-            info="countries"
-            class="countries col-lg-3 mb-5"
-          />
-        </div>
+      </h2>
+      <div
+        class="data text-center mx-auto text-center col-lg-6 mx-lg-0 d-lg-flex justify-content-between row"
+      >
+        <data-component
+          count="800+"
+          info="happy clients"
+          class="clients col-lg-3 mb-5"
+        />
+        <data-component
+          count="1900+"
+          info="projects completed"
+          class="projects col-lg-3 mb-5"
+        />
+        <data-component
+          count="30+"
+          info="business partners"
+          class="partners col-lg-3 mb-5"
+        />
+        <data-component
+          count="6"
+          info="countries"
+          class="countries col-lg-3 mb-5"
+        />
       </div>
-      <introduction-section class="pt-5 col-lg-6" />
     </div>
+    <introduction-section class="pt-lg-5 col-lg-6" />
   </section>
 </template>
 
@@ -123,6 +109,9 @@ export default {
 </script>
 
 <style scoped>
+.landing__title {
+  font-size: 45px;
+}
 .auto-type {
   color: var(--blue-color);
   transition: 0.5s ease-in-out;

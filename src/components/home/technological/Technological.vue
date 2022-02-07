@@ -1,9 +1,7 @@
 <template>
-  <section class="technological">
-    <div class="container">
-      <heading-component title="technology success" class="text-center" />
-      <description-component :desc="desc" class="technological__desc" />
-    </div>
+  <section class="technological mt-5 pt-3">
+    <heading-component title="technology success" class="text-center" />
+    <description-component :desc="desc" class="technological__desc mt-5 pt-4" />
   </section>
 </template>
 

@@ -13,8 +13,13 @@ export default {
 
 <style scoped>
 img {
-  transition: all 0.2s ease-in-out 0s;
   max-width: 200px;
   max-height: 200px;
+}
+@media (max-width: 992px) {
+  img {
+    max-width: 150px;
+    max-height: 150px;
+  }
 }
 </style>

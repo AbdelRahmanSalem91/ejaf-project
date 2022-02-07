@@ -1,10 +1,8 @@
 <template>
   <section class="contacts mt-5 py-5">
-    <div class="container pt-5">
-      <div class="row">
-        <contact-form class="col-lg-6" />
-        <contact-details class="col-lg-6 mt-sm-5" />
-      </div>
+    <div class="row pt-5">
+      <contact-form class="col-lg-6" />
+      <contact-details class="col-lg-6 mt-sm-5" />
     </div>
   </section>
 </template>

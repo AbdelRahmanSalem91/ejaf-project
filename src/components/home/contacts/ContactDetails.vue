@@ -14,7 +14,7 @@
     <h4 class="mt-5">
       <a href="#"> +964 (0)750-191-4252 </a>
     </h4>
-    <button class="btn text-white text-capitalize mt-5 button">
+    <button class="btn text-white text-capitalize mt-5 button fs-3">
       <i class="fas fa-map-marker"></i>
       our location
     </button>

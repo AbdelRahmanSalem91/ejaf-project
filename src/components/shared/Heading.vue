@@ -1,5 +1,5 @@
 <template>
-  <h2 class="h1 text-capitalize my-5">
+  <h2 class="h1 text-capitalize my-4">
     {{ title }}
   </h2>
 </template>

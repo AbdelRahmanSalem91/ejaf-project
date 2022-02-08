@@ -70,7 +70,7 @@
       </div>
     </div>
     <div class="logo text-center my-5 py-5 col-8 mx-auto">
-      <img src="../../../assets/logo.png" alt="Ejaf Technology" class="w-100" />
+      <img src="../../../assets/logo.png" alt="Ejaf Technology" class="logo" />
     </div>
   </section>
 </template>
@@ -84,5 +84,8 @@ export default {
 <style scoped>
 small {
   font-size: 12px;
+}
+.logo {
+  max-width: 500px;
 }
 </style>

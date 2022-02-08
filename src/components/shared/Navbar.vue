@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg w-100">
     <div class="container">
-      <div class="logo w-25">
+      <div class="logo">
         <a class="navbar-brand" href="#">
           <img src="../../assets/logo.png" alt="Ejaf Technology" />
         </a>
@@ -164,6 +164,10 @@ export default {
 </script>
 
 <style scoped>
+.logo {
+  width: 25%;
+  height: 64px;
+}
 .logo img {
   max-width: 90%;
 }
@@ -194,5 +198,11 @@ button,
 .navbar-collapse {
   background-color: var(--main-color);
   text-align: center;
+}
+@media (max-width: 991px) {
+  .logo {
+    width: 70%;
+    height: 64px;
+  }
 }
 </style>

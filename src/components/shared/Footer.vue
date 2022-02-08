@@ -7,7 +7,7 @@
       <a href="#">MAZAJNET</a>
     </span>
     <ul class="mt-5">
-      <li class="mx-3">
+      <li class="">
         <a href="#">
           <i class="fab fa-facebook-f"></i>
         </a>
@@ -17,7 +17,7 @@
           <i class="fab fa-twitter"></i>
         </a>
       </li>
-      <li class="mx-3">
+      <li class="">
         <a href="#">
           <i class="fab fa-linkedin-in"></i>
         </a>
@@ -44,5 +44,9 @@ export default {
 }
 .footer a:hover {
   color: rgba(255, 255, 255, 1);
+}
+.copyright a,
+.copyright a:hover {
+  color: var(--blue-color);
 }
 </style>

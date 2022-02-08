@@ -63,6 +63,7 @@ export default {
 }
 video {
   object-fit: cover;
+  overflow: hidden;
   z-index: -1;
 }
 .onScroll {

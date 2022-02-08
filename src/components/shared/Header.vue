@@ -62,8 +62,7 @@ export default {
   background-color: var(--main-color);
 }
 video {
-  object-fit: contain;
-  overflow: hidden;
+  object-fit: cover;
   z-index: -1;
 }
 .onScroll {

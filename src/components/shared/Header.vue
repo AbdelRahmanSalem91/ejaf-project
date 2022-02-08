@@ -62,7 +62,7 @@ export default {
   background-color: var(--main-color);
 }
 video {
-  object-fit: cover;
+  object-fit: contain;
   overflow: hidden;
   z-index: -1;
 }

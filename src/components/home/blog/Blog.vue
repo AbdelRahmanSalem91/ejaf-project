@@ -85,7 +85,9 @@ export default {
 small {
   font-size: 12px;
 }
-.logo {
-  max-width: 500px;
+@media (max-width: 991px) {
+  .logo {
+    max-width: 70%;
+  }
 }
 </style>

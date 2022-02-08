@@ -49,4 +49,7 @@ export default {
 .copyright a:hover {
   color: var(--blue-color);
 }
+ul {
+  padding-left: 0;
+}
 </style>

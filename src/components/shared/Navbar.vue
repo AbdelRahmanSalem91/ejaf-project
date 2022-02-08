@@ -1,5 +1,17 @@
 <template>
-  <nav class="navbar navbar-expand-lg w-100">
+  <nav
+    class="
+      navbar navbar-expand-lg
+      w-100
+      position-fixed
+      top-0
+      start-0
+      d-flex
+      justify-content-between
+      nav
+    "
+    :class="{ onScroll: !view.topOfPage }"
+  >
     <div class="container">
       <div class="logo">
         <a class="navbar-brand" href="#">
@@ -160,10 +172,36 @@
 <script>
 export default {
   name: "navbar-component",
+  data() {
+    return {
+      view: {
+        topOfPage: true,
+      },
+    };
+  },
+  beforeMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      if (window.pageYOffset > 0) {
+        if (this.view.topOfPage) this.view.topOfPage = false;
+      } else {
+        if (!this.view.topOfPage) this.view.topOfPage = true;
+      }
+    },
+  },
 };
 </script>
 
 <style scoped>
+.nav {
+  z-index: 10;
+  height: auto;
+}
+.onScroll {
+  background-color: var(--main-color);
+}
 .logo {
   width: 25%;
 }
@@ -195,7 +233,6 @@ button,
   transition: 0.5s all;
 }
 .navbar-collapse {
-  background-color: var(--main-color);
   text-align: center;
 }
 @media (max-width: 991px) {

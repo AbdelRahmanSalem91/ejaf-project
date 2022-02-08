@@ -2,15 +2,33 @@
   <section class="landing mt-5 pt-5">
     <div class="row flex-column">
       <h2
-        class="h1 landing__title text-center col-lg-6 w-lg-50 text-lg-start my-5"
+        class="
+          h1
+          landing__title
+          text-center
+          col-lg-6
+          w-lg-50
+          text-lg-start
+          my-5
+        "
       >
-        <span class="auto-type text-uppercase">{{ typeValue }}</span>
-        <span class="fixed-type position-relative text-uppercase"
-          >solutions</span
-        >
+        <span class="auto-type text-uppercase position-relative">{{
+          typeValue
+        }}</span>
+        <span class="fixed-type text-uppercase">solutions</span>
       </h2>
       <div
-        class="data text-center mx-auto text-center col-lg-6 mx-lg-0 d-lg-flex justify-content-between row"
+        class="
+          data
+          text-center
+          mx-auto
+          text-center
+          col-lg-6
+          mx-lg-0
+          d-lg-flex
+          justify-content-between
+          row
+        "
       >
         <data-component
           count="800+"
@@ -115,18 +133,18 @@ export default {
 .auto-type {
   color: var(--blue-color);
   transition: 0.5s ease-in-out;
+  padding-right: 8px;
 }
-.fixed-type {
-  color: #4e5465;
-  padding-left: 8px;
-}
-.fixed-type::before {
+.auto-type::after {
   content: "";
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   width: 2px;
   height: 100%;
   background-color: #aebcb9;
+}
+.fixed-type {
+  color: #4e5465;
 }
 </style>

@@ -1,17 +1,17 @@
 <template>
-  <header-component></header-component>
+  <navbar-component />
   <home />
   <footer-component />
 </template>
 
 <script>
+import NavbarComponent from "./components/shared/Navbar.vue";
 import FooterComponent from "./components/shared/Footer.vue";
-import HeaderComponent from "./components/shared/Header.vue";
 import Home from "./views/Home.vue";
 
 export default {
   components: {
-    HeaderComponent,
+    NavbarComponent,
     Home,
     FooterComponent,
   },

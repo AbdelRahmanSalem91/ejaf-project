@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <header-component />
     <services-section />
     <technological-section />
     <partners-section />
@@ -9,6 +10,7 @@
 </template>
 
 <script>
+import HeaderComponent from "../components/shared/Header.vue";
 import BlogSection from "../components/home/blog/Blog.vue";
 import ContactsSection from "../components/home/contacts/Contacts.vue";
 import PartnersSection from "../components/home/partners/Partners.vue";
@@ -23,6 +25,7 @@ export default {
     PartnersSection,
     ContactsSection,
     BlogSection,
+    HeaderComponent,
   },
 };
 </script>

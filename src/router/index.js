@@ -7,19 +7,19 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    alias: "HOME",
+    alias: "/HOME",
     component: Home,
   },
   {
     path: "/about",
     name: "About",
-    alias: "ABOUT",
+    alias: "/ABOUT",
     component: AboutUs,
   },
   {
     path: "/contact",
     name: "Contact",
-    alias: "CONTACT",
+    alias: "/CONTACT",
     component: ContactUs,
   },
   {

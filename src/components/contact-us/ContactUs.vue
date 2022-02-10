@@ -2,7 +2,7 @@
   <div class="container">
     <contacts-component />
     <div class="map text-center my-5">
-      <img src="../../assets/contact-us/map.jpg" alt="Ejaf Map" />
+      <img src="../../assets/contact-us/map.jpg" alt="Ejaf Map" class="w-100" />
     </div>
     <blog-component />
   </div>

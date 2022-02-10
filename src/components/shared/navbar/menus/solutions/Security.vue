@@ -3,7 +3,7 @@
     <a
       class="nav-link dropdown-toggle text-uppercase text-center position-relative"
       href="#"
-      id="networkingMenuLinks"
+      id="securitySolutionMenuLinks"
       role="button"
       data-bs-toggle="dropdown"
       aria-expanded="false"
@@ -11,10 +11,7 @@
     >
     <ul
       class="dropdown-menu drop-menu text-uppercase nested-menu-lvl2"
-      aria-labelledby="networkingMenuLinks"
-      role="button"
-      data-bs-toggle="dropdown"
-      aria-expanded="false"
+      aria-labelledby="securitySolutionMenuLinks"
     >
       <li class="nav-item dropdown">
         <router-link to="/" class="">network cloud security</router-link>

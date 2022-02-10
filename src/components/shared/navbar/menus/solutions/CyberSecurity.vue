@@ -1,9 +1,9 @@
 <template>
-  <li>
+  <li class="nav-item dropdown">
     <a
       class="nav-link dropdown-toggle text-uppercase text-center position-relative"
       href="#"
-      id="dataCenterMenuLinks"
+      id="cyberSecurityMenuLinks"
       role="button"
       data-bs-toggle="dropdown"
       aria-expanded="false"
@@ -11,16 +11,15 @@
     >
     <ul
       class="dropdown-menu drop-menu text-uppercase nested-menu-lvl2"
-      aria-labelledby="dataCenterMenuLinks"
-      role="button"
-      data-bs-toggle="dropdown"
-      aria-expanded="false"
+      aria-labelledby="cyberSecurityMenuLinks"
     >
       <li class="nav-item dropdown">
-        <router-link to="/" class="">valimail defend</router-link>
+        <router-link to="/" class="nav-link">valimail defend</router-link>
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="">enterprise security solutions</router-link>
+        <router-link to="/" class="nav-link"
+          >enterprise security solutions</router-link
+        >
       </li>
     </ul>
   </li>

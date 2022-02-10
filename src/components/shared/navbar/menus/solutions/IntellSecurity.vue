@@ -3,7 +3,7 @@
     <a
       class="nav-link dropdown-toggle text-uppercase text-center position-relative"
       href="#"
-      id="networkingMenuLinks"
+      id="intellSecurityMenuLinks"
       role="button"
       data-bs-toggle="dropdown"
       aria-expanded="false"
@@ -11,22 +11,23 @@
     >
     <ul
       class="dropdown-menu drop-menu text-uppercase nested-menu-lvl2"
-      aria-labelledby="networkingMenuLinks"
-      role="button"
-      data-bs-toggle="dropdown"
-      aria-expanded="false"
+      aria-labelledby="intellSecurityMenuLinks"
     >
       <li class="nav-item dropdown">
-        <router-link to="/" class="">access control solution</router-link>
+        <router-link to="/wam" class="nav-link"
+          >access control solution</router-link
+        >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="">fire alarm solution</router-link>
+        <router-link to="/" class="nav-link">fire alarm solution</router-link>
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="">intrusion detection system</router-link>
+        <router-link to="/" class="nav-link"
+          >intrusion detection system</router-link
+        >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="">ip cctv</router-link>
+        <router-link to="/" class="nav-link">ip cctv</router-link>
       </li>
     </ul>
   </li>

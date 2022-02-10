@@ -3,7 +3,7 @@
     <a
       class="nav-link dropdown-toggle text-uppercase text-center position-relative"
       href="#"
-      id="networkingMenuLinks"
+      id="cloudSolutionMenuLinks"
       role="button"
       data-bs-toggle="dropdown"
       aria-expanded="false"
@@ -11,19 +11,16 @@
     >
     <ul
       class="dropdown-menu drop-menu text-uppercase nested-menu-lvl2"
-      aria-labelledby="networkingMenuLinks"
-      role="button"
-      data-bs-toggle="dropdown"
-      aria-expanded="false"
+      aria-labelledby="cloudSolutionMenuLinks"
     >
       <li class="nav-item dropdown">
-        <router-link to="/" class="">private, public cloud</router-link>
+        <router-link to="/" class="nav-link">private, public cloud</router-link>
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="">managed services</router-link>
+        <router-link to="/" class="nav-link">managed services</router-link>
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="">cloud applications</router-link>
+        <router-link to="/" class="nav-link">cloud applications</router-link>
       </li>
     </ul>
   </li>

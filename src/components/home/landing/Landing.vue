@@ -9,37 +9,14 @@
         }}</span>
         <span class="fixed-type text-uppercase">solutions</span>
       </h2>
-      <div
-        class="data text-center mx-auto text-center col-lg-6 mx-lg-0 d-lg-flex justify-content-between row"
-      >
-        <data-component
-          count="800+"
-          info="happy clients"
-          class="clients col-lg-3 mb-5"
-        />
-        <data-component
-          count="1900+"
-          info="projects completed"
-          class="projects col-lg-3 mb-5"
-        />
-        <data-component
-          count="30+"
-          info="business partners"
-          class="partners col-lg-3 mb-5"
-        />
-        <data-component
-          count="6"
-          info="countries"
-          class="countries col-lg-3 mb-5"
-        />
-      </div>
+      <data-component />
     </div>
     <introduction-section class="pt-lg-5 col-lg-6" />
   </section>
 </template>
 
 <script>
-import DataComponent from "./DataComponent.vue";
+import DataComponent from "../../shared/DataComponent.vue";
 import IntroductionSection from "./Introduction.vue";
 
 export default {

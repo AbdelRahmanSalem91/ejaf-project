@@ -3,7 +3,7 @@
     <a
       class="nav-link dropdown-toggle text-uppercase text-center position-relative"
       href="#"
-      id="networkingMenuLinks"
+      id="itSoftwareMenuLinks"
       role="button"
       data-bs-toggle="dropdown"
       aria-expanded="false"
@@ -11,16 +11,15 @@
     >
     <ul
       class="dropdown-menu drop-menu text-uppercase nested-menu-lvl2"
-      aria-labelledby="networkingMenuLinks"
-      role="button"
-      data-bs-toggle="dropdown"
-      aria-expanded="false"
+      aria-labelledby="itSoftwareMenuLinks"
     >
       <li class="nav-item dropdown">
-        <router-link to="/" class="">it security management</router-link>
+        <router-link to="/" class="nav-link"
+          >it security management</router-link
+        >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class=""
+        <router-link to="/" class="nav-link"
           >network and server performance management</router-link
         >
       </li>

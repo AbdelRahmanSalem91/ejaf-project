@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/views/Home.vue";
 import AboutUs from "@/views/AboutUs.vue";
 import ContactUs from "@/views/ContactUs.vue";
+import WanSolutionPage from "@/views/networking-solutions/WanSolutionPage.vue";
+import ItServicesPage from "@/components/ItServsicePage.vue";
 
 const routes = [
   {
@@ -18,6 +20,16 @@ const routes = [
     path: "/contact",
     name: "Contact",
     component: ContactUs,
+  },
+  {
+    path: "/wan",
+    name: "Wan",
+    component: WanSolutionPage,
+  },
+  {
+    path: "/it-services",
+    name: "It-Services",
+    component: ItServicesPage,
   },
   {
     path: "/:catchAll(.*)*",

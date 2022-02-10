@@ -1,18 +1,16 @@
 <template>
   <navbar-component />
-  <home />
+  <router-view></router-view>
   <footer-component />
 </template>
 
 <script>
 import NavbarComponent from "./components/shared/Navbar.vue";
 import FooterComponent from "./components/shared/Footer.vue";
-import Home from "./views/Home.vue";
 
 export default {
   components: {
     NavbarComponent,
-    Home,
     FooterComponent,
   },
 };

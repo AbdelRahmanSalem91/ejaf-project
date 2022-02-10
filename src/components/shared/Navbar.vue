@@ -14,9 +14,9 @@
   >
     <div class="container">
       <div class="logo">
-        <a class="navbar-brand" href="#">
+        <router-link class="navbar-brand" :to="{ name: 'Home' }">
           <img src="../../assets/logo.png" alt="Ejaf Technology" />
-        </a>
+        </router-link>
       </div>
       <button
         class="navbar-toggler border-white"
@@ -34,131 +34,137 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a
+            <router-link
               class="nav-link active text-white text-uppercase"
               aria-current="page"
-              href="#"
-              >home</a
+              :to="{ name: 'Home' }"
+              >home</router-link
             >
           </li>
           <li class="nav-item dropdown">
-            <a
+            <router-link
               class="nav-link dropdown-toggle text-white text-uppercase"
-              href="#"
+              to="/"
               id="navbarDropdownMenuLink"
               role="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
               solutions
-            </a>
+            </router-link>
             <ul
               class="dropdown-menu drop-menu text-uppercase"
               aria-labelledby="navbarDropdownMenuLink"
             >
               <li>
-                <a
+                <router-link
                   class="dropdown-item text-white text-uppercase text-center"
-                  href="#"
-                  >Action</a
+                  to="/"
+                  >Action</router-link
                 >
               </li>
               <li>
-                <a
+                <router-link
                   class="dropdown-item text-white text-uppercase text-center"
-                  href="#"
-                  >Another action</a
+                  to="/"
+                  >Another action</router-link
                 >
               </li>
               <li>
-                <a
+                <router-link
                   class="dropdown-item text-white text-uppercase text-center"
-                  href="#"
-                  >Something else here</a
+                  to="/"
+                  >Something else here</router-link
                 >
               </li>
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a
+            <router-link
               class="nav-link dropdown-toggle text-white text-uppercase"
-              href="#"
+              to="/"
               id="navbarDropdownMenuLink"
               role="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
               services
-            </a>
+            </router-link>
             <ul
               class="dropdown-menu drop-menu text-uppercase"
               aria-labelledby="navbarDropdownMenuLink"
             >
               <li>
-                <a
+                <router-link
                   class="dropdown-item text-white text-uppercase text-center"
-                  href="#"
-                  >Action</a
+                  to="/"
+                  >Action</router-link
                 >
               </li>
               <li>
-                <a
+                <router-link
                   class="dropdown-item text-white text-uppercase text-center"
-                  href="#"
-                  >Another action</a
+                  to="/"
+                  >Another action</router-link
                 >
               </li>
               <li>
-                <a
+                <router-link
                   class="dropdown-item text-white text-uppercase text-center"
-                  href="#"
-                  >Something else here</a
+                  to="/"
+                  >Something else here</router-link
                 >
               </li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white text-uppercase" href="#">about us</a>
+            <router-link
+              class="nav-link text-white text-uppercase"
+              :to="{ name: 'About' }"
+              >about us</router-link
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white text-uppercase" href="#"
-              >contact us</a
+            <router-link
+              class="nav-link text-white text-uppercase"
+              :to="{ name: 'Contact' }"
+              >contact us</router-link
             >
           </li>
           <li class="nav-item dropdown">
-            <a
+            <router-link
               class="nav-link dropdown-toggle text-white text-uppercase"
-              href="#"
+              to="/"
               id="navbarDropdownMenuLink"
               role="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
               services
-            </a>
+            </router-link>
             <ul
               class="dropdown-menu drop-menu text-uppercase"
               aria-labelledby="navbarDropdownMenuLink"
             >
               <li>
-                <a
+                <router-link
                   class="dropdown-item text-white text-uppercase text-center"
-                  href="#"
-                  >Action</a
+                  to="/"
+                  >Action</router-link
                 >
               </li>
               <li>
-                <a
+                <router-link
                   class="dropdown-item text-white text-uppercase text-center"
-                  href="#"
-                  >Another action</a
+                  to="/"
+                  >Another action</router-link
                 >
               </li>
               <li>
-                <a
+                <router-link
                   class="dropdown-item text-white text-uppercase text-center"
-                  href="#"
-                  >Something else here</a
+                  to="/"
+                  >Something else here</router-link
                 >
               </li>
             </ul>

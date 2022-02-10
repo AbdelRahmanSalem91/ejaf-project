@@ -242,6 +242,9 @@ button,
   text-align: center;
 }
 @media (max-width: 991px) {
+  #navbarNav {
+    background-color: var(--main-color);
+  }
   .logo {
     width: 60%;
   }

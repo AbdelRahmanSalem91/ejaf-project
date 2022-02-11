@@ -34,20 +34,20 @@ export default {
 
 <style scoped>
 .footer {
-  height: 312px;
+  height: 200px;
   border-top: 1px solid #020f21;
 }
 .footer,
 .footer a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5) !important;
   transition: 0.3s all;
 }
 .footer a:hover {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1) !important;
 }
 .copyright a,
 .copyright a:hover {
-  color: var(--blue-color);
+  color: var(--blue-color) !important;
 }
 ul {
   padding-left: 0;

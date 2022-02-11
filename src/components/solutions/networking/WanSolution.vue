@@ -5,7 +5,7 @@
     </div>
     <div class="container">
       <info-section class="mt-5">
-        <div class="info-desc col-lg-8 px-5">
+        <div class="info-desc col-lg-8">
           <h2 class="purpose h1">What is the purpose of Wan Optimization?</h2>
           <p class="desc">
             Wan Optimization allows you to analyze the performance of a network
@@ -22,14 +22,14 @@
         </div>
         <div class="info-img col-lg-4">
           <img
-            class="w-75"
+            class="w-100"
             src="../../../assets/wan/wan-accelerator.png"
             alt="Wan Accelerator"
           />
         </div>
       </info-section>
       <info-section class="mt-5">
-        <div class="info-desc col-lg-8 px-5 order-2">
+        <div class="info-desc col-lg-8 order-2 pt-3">
           <h2 class="title-yellow h1">The concept of WAN accelerator</h2>
           <p class="desc">
             A WAN accelerator uses data compression and caching processes to
@@ -42,16 +42,16 @@
             data transfer across the network.
           </p>
         </div>
-        <div class="info-img col-lg-4 order-1 text-center">
+        <div class="info-img col-lg-4 mb-0 mb-sm-3 order-1 text-center">
           <img
-            class="w-75"
+            class="w-100"
             src="../../../assets/wan/wan-concept.png"
             alt="Wan Accelerator"
           />
         </div>
       </info-section>
       <info-section class="mt-5">
-        <div class="info-desc col-lg-8 px-5">
+        <div class="info-desc col-lg-8">
           <h2 class="title-green h1">Traffic Shaping</h2>
           <p class="desc">
             Traffic shaping means the maintenance of the rate of data transfer.
@@ -63,36 +63,35 @@
         </div>
         <div class="info-img col-lg-4">
           <img
-            class="w-75"
+            class="w-100"
             src="../../../assets/wan/traffic-shaping.png"
             alt="Wan Accelerator"
           />
         </div>
       </info-section>
       <info-section class="mt-5">
-        <div class="info-desc col-lg-8 px-5 order-2">
-          <h2 class="title-yellow h1">The concept of WAN accelerator</h2>
+        <div class="info-desc col-lg-8 pt-3 order-2">
+          <h2 class="title-yellow h1">Data Deduplication</h2>
           <p class="desc">
-            A WAN accelerator uses data compression and caching processes to
-            decrease the quantity of data streaming across WAN. A WAN
-            accelerator, instead of sending files across WAN, again and again,
-            works by caching the copied files and storing them in universal
-            caches. WAN accelerator is of particular significance in cases where
-            the bandwidth is the primary restriction by effectively exchanging
-            the network I/O for the disc I/O, thereby increasing the efficacy of
-            data transfer across the network.
+            Deduplication, as the name indicated means ‘removal of duplicates.
+            It is a process of screening a device for any duplicate files
+            available and deleting them in order to provide more space. This
+            space can then, be used for additional data files. Its main purpose
+            is to increase capacity and to prevent the requirement of spending
+            on additional storage space. This is a measure that should be taken
+            to increase work efficiency.
           </p>
         </div>
         <div class="info-img col-lg-4 order-1 text-center">
           <img
-            class="w-75"
-            src="../../../assets/wan/wan-concept.png"
+            class="w-100"
+            src="../../../assets/wan/data-deduplication.png"
             alt="Wan Accelerator"
           />
         </div>
       </info-section>
       <info-section class="mt-5">
-        <div class="info-desc col-lg-8 px-5">
+        <div class="info-desc col-lg-8">
           <h2 class="title-green h1">Data Compression</h2>
           <p class="desc">
             If we lessen the number of bits required to embody the data then it
@@ -105,14 +104,14 @@
         </div>
         <div class="info-img col-lg-4">
           <img
-            class="w-75"
+            class="w-100"
             src="../../../assets/wan/data-compression.png"
             alt="Wan Accelerator"
           />
         </div>
       </info-section>
       <info-section class="mt-5">
-        <div class="info-desc col-lg-8 px-5 order-2">
+        <div class="info-desc col-lg-8 pt-3 order-2">
           <h2 class="title-yellow h1">Protocol Spoofing</h2>
           <p class="desc">
             Protocol spoofing plays an important role in data communication and
@@ -124,14 +123,14 @@
         </div>
         <div class="info-img col-lg-4 order-1 text-center">
           <img
-            class="w-75"
+            class="w-100"
             src="../../../assets/wan/protocol-spoofing.png"
             alt="Wan Accelerator"
           />
         </div>
       </info-section>
       <info-section class="mt-5">
-        <div class="info-desc col-lg-8 px-5">
+        <div class="info-desc col-lg-8">
           <h2 class="title-green h1">Data Caching</h2>
           <p class="desc">
             There is an incorporated intelligence in Caching servers which saves
@@ -146,31 +145,37 @@
         </div>
         <div class="info-img col-lg-4">
           <img
-            class="w-75"
+            class="w-100"
             src="../../../assets/wan/data-storage1.png"
             alt="Wan Accelerator"
           />
         </div>
       </info-section>
       <info-section class="mt-5">
-        <div class="info-desc col-lg-8 px-5 order-2">
+        <div class="info-desc col-lg-8 pt-3 order-2">
           <h2 class="title-yellow h1">
             The usefulness of WAN Optimization Solutions
           </h2>
           <ul>
             <li class="desc">
-              Rapidly settling the issues with boosted ID visibility into
-              application, network and end-user application
+              <p>
+                Rapidly settling the issues with boosted ID visibility into
+                application, network and end-user application
+              </p>
             </li>
             <li class="desc">
-              The perfect way for the end-user experience across the Hybrid WAN
-              with the boosted operation of all applications
+              <p>
+                The perfect way for the end-user experience across the Hybrid
+                WAN with the boosted operation of all applications
+              </p>
             </li>
             <li class="desc">
-              Having a supervision with a concentrated and conscious approach
-              that clarifies business objective into application-centric service
-              agreements and itself originates the possible network path chances
-              based on accessibility and availability
+              <p>
+                Having a supervision with a concentrated and conscious approach
+                that clarifies business objective into application-centric
+                service agreements and itself originates the possible network
+                path chances based on accessibility and availability
+              </p>
             </li>
           </ul>
         </div>
@@ -201,12 +206,7 @@ export default {
 <style scoped>
 .land {
   align-items: center;
-  height: 490px;
   position: relative;
-  background-image: url("../../../assets/wan/wan-bg.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .purpose {
   color: var(--orange-color);
@@ -222,5 +222,16 @@ ul {
 }
 li {
   list-style: disc;
+}
+p {
+  font-size: 14pt;
+}
+@media (min-width: 992px) {
+  .land {
+    background-image: url("../../../assets/wan/wan-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
   <section class="contacts mt-5 py-5">
     <div class="row pt-5">
-      <contact-form class="col-lg-6" />
-      <contact-details class="col-lg-6 mt-sm-5" />
+      <contact-form class="col-lg-6 mb-5" />
+      <contact-details class="col-lg-6" />
     </div>
   </section>
 </template>

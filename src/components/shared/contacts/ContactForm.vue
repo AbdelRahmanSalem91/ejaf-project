@@ -66,4 +66,7 @@ input {
 .button {
   background-color: var(--green-color);
 }
+a {
+  color: var(--blue-color) !important;
+}
 </style>

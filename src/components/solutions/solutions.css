@@ -1,0 +1,38 @@
+.land {
+  align-items: center;
+  position: relative;
+}
+.title-yellow {
+  color: var(--yellow-color);
+}
+.title-blue {
+  color: var(--blue-color);
+}
+.title-green {
+  color: var(--green-color);
+}
+.title-orange {
+  color: var(--orange-color);
+}
+.info-desc ul {
+  display: list-item;
+}
+.info-desc li {
+  list-style: disc;
+}
+.info-desc p,
+.modifying p,
+.ultimate p {
+  font-size: 14pt;
+}
+.storage-page .icon:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s all;
+}
+@media (min-width: 992px) {
+  .land {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

@@ -1,12 +1,17 @@
 <template>
   <div class="wan-page">
     <div class="land">
-      <wan-landing />
+      <landing-component>
+        Wan Optimization <br />
+        Improve the Dexterity of your Business
+      </landing-component>
     </div>
     <div class="container">
-      <info-section class="mt-5">
+      <info-section-left>
         <div class="info-desc col-lg-8">
-          <h2 class="purpose h1">What is the purpose of Wan Optimization?</h2>
+          <h2 class="title-orange h1">
+            What is the purpose of Wan Optimization?
+          </h2>
           <p class="desc">
             Wan Optimization allows you to analyze the performance of a network
             and the application, along with detection of the end-user
@@ -23,13 +28,13 @@
         <div class="info-img col-lg-4">
           <img
             class="w-100"
-            src="../../../assets/wan/wan-accelerator.png"
+            src="../../../assets/networking/wan/wan-accelerator.png"
             alt="Wan Accelerator"
           />
         </div>
-      </info-section>
-      <info-section class="mt-5">
-        <div class="info-desc col-lg-8 order-2 pt-3">
+      </info-section-left>
+      <info-section-right>
+        <div class="info-desc col-lg-8 pt-3">
           <h2 class="title-yellow h1">The concept of WAN accelerator</h2>
           <p class="desc">
             A WAN accelerator uses data compression and caching processes to
@@ -42,15 +47,15 @@
             data transfer across the network.
           </p>
         </div>
-        <div class="info-img col-lg-4 mb-0 mb-sm-3 order-1 text-center">
+        <div class="info-img col-lg-4 mb-0 mb-sm-3 text-center">
           <img
             class="w-100"
-            src="../../../assets/wan/wan-concept.png"
+            src="../../../assets/networking/wan/wan-concept.png"
             alt="Wan Accelerator"
           />
         </div>
-      </info-section>
-      <info-section class="mt-5">
+      </info-section-right>
+      <info-section-left>
         <div class="info-desc col-lg-8">
           <h2 class="title-green h1">Traffic Shaping</h2>
           <p class="desc">
@@ -64,13 +69,13 @@
         <div class="info-img col-lg-4">
           <img
             class="w-100"
-            src="../../../assets/wan/traffic-shaping.png"
+            src="../../../assets/networking/wan/traffic-shaping.png"
             alt="Wan Accelerator"
           />
         </div>
-      </info-section>
-      <info-section class="mt-5">
-        <div class="info-desc col-lg-8 pt-3 order-2">
+      </info-section-left>
+      <info-section-right>
+        <div class="info-desc col-lg-8 pt-3">
           <h2 class="title-yellow h1">Data Deduplication</h2>
           <p class="desc">
             Deduplication, as the name indicated means ‘removal of duplicates.
@@ -82,15 +87,15 @@
             to increase work efficiency.
           </p>
         </div>
-        <div class="info-img col-lg-4 order-1 text-center">
+        <div class="info-img col-lg-4 text-center">
           <img
             class="w-100"
-            src="../../../assets/wan/data-deduplication.png"
+            src="../../../assets/networking/wan/data-deduplication.png"
             alt="Wan Accelerator"
           />
         </div>
-      </info-section>
-      <info-section class="mt-5">
+      </info-section-right>
+      <info-section-left>
         <div class="info-desc col-lg-8">
           <h2 class="title-green h1">Data Compression</h2>
           <p class="desc">
@@ -105,13 +110,13 @@
         <div class="info-img col-lg-4">
           <img
             class="w-100"
-            src="../../../assets/wan/data-compression.png"
+            src="../../../assets/networking/wan/data-compression.png"
             alt="Wan Accelerator"
           />
         </div>
-      </info-section>
-      <info-section class="mt-5">
-        <div class="info-desc col-lg-8 pt-3 order-2">
+      </info-section-left>
+      <info-section-right>
+        <div class="info-desc col-lg-8 pt-3">
           <h2 class="title-yellow h1">Protocol Spoofing</h2>
           <p class="desc">
             Protocol spoofing plays an important role in data communication and
@@ -121,38 +126,38 @@
             solution.
           </p>
         </div>
-        <div class="info-img col-lg-4 order-1 text-center">
+        <div class="info-img col-lg-4 text-center">
           <img
             class="w-100"
-            src="../../../assets/wan/protocol-spoofing.png"
+            src="../../../assets/networking/wan/protocol-spoofing.png"
             alt="Wan Accelerator"
           />
         </div>
-      </info-section>
-      <info-section class="mt-5">
+      </info-section-right>
+      <info-section-left>
         <div class="info-desc col-lg-8">
           <h2 class="title-green h1">Data Caching</h2>
           <p class="desc">
             There is an incorporated intelligence in Caching servers which saves
             the most previously and repeatedly bidden information. This holds
             importance in the deterrence of future requests from crossing a
-            WAN/Internet link unnecessarily. They also possess a timestamp of
-            their recent update. The caching server will cite a locally stored
-            sample of the web page if the page timestamp fails to rectify when a
-            user visits the page. This will conserve time as the need to load
-            the page from across the Internet would be eliminated.
+            networking/wan/Internet link unnecessarily. They also possess a
+            timestamp of their recent update. The caching server will cite a
+            locally stored sample of the web page if the page timestamp fails to
+            rectify when a user visits the page. This will conserve time as the
+            need to load the page from across the Internet would be eliminated.
           </p>
         </div>
         <div class="info-img col-lg-4">
           <img
             class="w-100"
-            src="../../../assets/wan/data-storage1.png"
+            src="../../../assets/networking/wan/data-storage1.png"
             alt="Wan Accelerator"
           />
         </div>
-      </info-section>
-      <info-section class="mt-5">
-        <div class="info-desc col-lg-8 pt-3 order-2">
+      </info-section-left>
+      <info-section-right>
+        <div class="info-desc col-lg-8 pt-3">
           <h2 class="title-yellow h1">
             The usefulness of WAN Optimization Solutions
           </h2>
@@ -179,14 +184,14 @@
             </li>
           </ul>
         </div>
-        <div class="info-img col-lg-4 order-1 text-center">
+        <div class="info-img col-lg-4 text-center">
           <img
             class="w-75"
-            src="../../../assets/wan/banner.png"
+            src="../../../assets/networking/wan/banner.png"
             alt="Wan Accelerator"
           />
         </div>
-      </info-section>
+      </info-section-right>
       <contacts-section />
       <blog-section />
     </div>
@@ -194,44 +199,27 @@
 </template>
 
 <script>
-import InfoSection from "../../shared/InfoSection.vue";
-import WanLanding from "./WanLanding.vue";
+import "../solutions.css";
+import InfoSectionLeft from "../../shared/InfoSectionLeft.vue";
+import InfoSectionRight from "../../shared/InfoSectionRight.vue";
+import LandingComponent from "../../shared/LandingComponent.vue";
 import ContactsSection from "../../shared/contacts/Contacts.vue";
 import BlogSection from "../../shared/blog/Blog.vue";
 export default {
-  components: { WanLanding, InfoSection, ContactsSection, BlogSection },
+  components: {
+    LandingComponent,
+    InfoSectionLeft,
+    InfoSectionRight,
+    ContactsSection,
+    BlogSection,
+  },
   name: "wan-page",
 };
 </script>
 <style scoped>
-.land {
-  align-items: center;
-  position: relative;
-}
-.purpose {
-  color: var(--orange-color);
-}
-.title-yellow {
-  color: var(--yellow-color);
-}
-.title-green {
-  color: var(--green-color);
-}
-ul {
-  display: list-item;
-}
-li {
-  list-style: disc;
-}
-p {
-  font-size: 14pt;
-}
 @media (min-width: 992px) {
   .land {
-    background-image: url("../../../assets/wan/wan-bg.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url("../../../assets/networking/wan/wan-bg.jpg");
   }
 }
 </style>

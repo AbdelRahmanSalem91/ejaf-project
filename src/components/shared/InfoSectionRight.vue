@@ -1,6 +1,6 @@
 <template>
-  <div class="info d-flex align-items-center my-5 py-3">
-    <div class="row">
+  <div class="info my-5 py-3">
+    <div class="row flex-row-reverse">
       <slot></slot>
     </div>
   </div>
@@ -8,6 +8,6 @@
 
 <script>
 export default {
-  name: "info-section",
+  name: "info-section-right",
 };
 </script>

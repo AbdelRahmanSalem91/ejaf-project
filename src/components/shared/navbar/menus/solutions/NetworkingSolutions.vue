@@ -14,15 +14,17 @@
       aria-labelledby="networkingMenuLinks"
     >
       <li class="nav-item dropdown">
-        <router-link class="nav-link" to="/wan">wan optimization</router-link>
+        <router-link class="nav-link" to="/wan-optimization"
+          >wan optimization</router-link
+        >
       </li>
       <li>
-        <router-link class="nav-link" to="/"
+        <router-link class="nav-link" to="/enterprise-network"
           >enterprise network solutions</router-link
         >
       </li>
       <li>
-        <router-link class="nav-link" to="/"
+        <router-link class="nav-link" to="/collaboration-solutions"
           >collaboration solutions</router-link
         >
       </li>

@@ -14,16 +14,22 @@
       aria-labelledby="dataCenterMenuLinks"
     >
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link">data center</router-link>
+        <router-link to="/data-center" class="nav-link"
+          >data center</router-link
+        >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link">virtualization</router-link>
+        <router-link to="/virtualization" class="nav-link"
+          >virtualization</router-link
+        >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link">storgae</router-link>
+        <router-link to="/storage" class="nav-link">storgae</router-link>
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link">cloud computing</router-link>
+        <router-link to="/cloud-computing" class="nav-link"
+          >cloud computing</router-link
+        >
       </li>
       <li class="nav-item dropdown">
         <router-link to="/" class="nav-link"

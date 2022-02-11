@@ -14,7 +14,9 @@
       aria-labelledby="cyberSecurityMenuLinks"
     >
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link">valimail defend</router-link>
+        <router-link to="/valimail-defend" class="nav-link"
+          >valimail defend</router-link
+        >
       </li>
       <li class="nav-item dropdown">
         <router-link to="/" class="nav-link"

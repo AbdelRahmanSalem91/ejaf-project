@@ -32,12 +32,12 @@
         >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link"
-          >backup and replacement solutions</router-link
+        <router-link to="/backup-and-replication" class="nav-link"
+          >backup and replication solutions</router-link
         >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link"
+        <router-link to="/disaster-recovery" class="nav-link"
           >disaster recovery solutions</router-link
         >
       </li>

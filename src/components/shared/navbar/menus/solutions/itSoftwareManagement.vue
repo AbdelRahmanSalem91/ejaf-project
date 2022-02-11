@@ -14,12 +14,14 @@
       aria-labelledby="itSoftwareMenuLinks"
     >
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link"
+        <router-link to="/it-security-management" class="nav-link"
           >it security management</router-link
         >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link"
+        <router-link
+          to="/network-and-server-performance-management"
+          class="nav-link"
           >network and server performance management</router-link
         >
       </li>

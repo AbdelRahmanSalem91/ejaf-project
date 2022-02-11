@@ -24,10 +24,14 @@
 .modifying p,
 .ultimate p {
   font-size: 14pt;
+  margin-bottom: 0;
 }
 .storage-page .icon:hover {
   transform: scale(1.1, 1.1);
   transition: 0.5s all;
+}
+.benifits .heading {
+  list-style: none;
 }
 @media (min-width: 992px) {
   .land {

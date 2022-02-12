@@ -1,9 +1,9 @@
 <template>
-  <div class="info my-5 py-3">
+  <section class="info my-5 py-3">
     <div class="row">
       <slot></slot>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

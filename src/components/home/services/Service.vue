@@ -33,7 +33,7 @@ img {
 h3 {
   font-size: 24px;
 }
-a {
-  transition: color 400ms, background-color 400ms;
+h3 a {
+  color: var(--blue-color) !important;
 }
 </style>

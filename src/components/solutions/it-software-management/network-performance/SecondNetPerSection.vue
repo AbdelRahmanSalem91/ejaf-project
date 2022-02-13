@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8 pt-3">
       <h2 class="title-yellow h1">
         Supervision Of Servers And Application Performance
@@ -42,14 +42,11 @@
         alt="Supervision Of Servers And Application Performance"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "second-net-per-section",
-  components: { InfoSectionRight },
 };
 </script>

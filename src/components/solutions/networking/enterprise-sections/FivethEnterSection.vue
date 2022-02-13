@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-green h1">Software Defined Networks</h2>
       <p class="desc">
@@ -18,13 +18,11 @@
         alt="Software Defined Networks"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
 export default {
   name: "fiveth-enter-section",
-  components: { InfoSectionLeft },
 };
 </script>

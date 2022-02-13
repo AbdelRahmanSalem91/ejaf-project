@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-yellow h1">Supervising The Websites And Servers</h2>
       <p class="desc">
@@ -40,14 +40,11 @@
         alt="Supervising The Websites And Servers"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "sixth-net-per-section",
-  components: { InfoSectionRight },
 };
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-green h1">Why Customer Collaboration is Beneficial?</h2>
       <p class="desc">
@@ -17,14 +17,11 @@
         alt="Why Customer Collaboration is Beneficial?"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "fourth-collab-section",
-  components: { InfoSectionLeft },
 };
 </script>

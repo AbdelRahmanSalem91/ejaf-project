@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-orange h1">
         What do you propose to do when an unexpected disaster happens?
@@ -18,14 +18,11 @@
         alt="What do you propose to do when an unexpected disaster happens?"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   nmae: "first-dis-section",
-  components: { InfoSectionLeft },
 };
 </script>

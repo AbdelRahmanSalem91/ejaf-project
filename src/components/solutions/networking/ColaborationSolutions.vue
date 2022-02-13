@@ -1,10 +1,10 @@
 <template>
   <div class="enterprise-network">
     <div class="land">
-      <landing-component>
+      <LandingComponent>
         Collaboration Solutions <br />
         Modifying the Ways of Doing Work
-      </landing-component>
+      </LandingComponent>
     </div>
     <div class="container">
       <first-collab-section />
@@ -18,17 +18,14 @@
       <nineth-collab-section />
       <tenth-collab-section />
       <eleventh-collab-section />
-      <contacts-section />
-      <blog-section />
+      <ContactsSection />
+      <BlogSection />
     </div>
   </div>
 </template>
 
 <script>
 import "../solutions.css";
-import LandingComponent from "../../shared/LandingComponent.vue";
-import ContactsSection from "../../shared/contacts/Contacts.vue";
-import BlogSection from "../../shared/blog/Blog.vue";
 import FirstCollabSection from "./collab-sections/FirstCollabSection.vue";
 import ThirdCollabSection from "./collab-sections/ThirdCollabSection.vue";
 import FivethCollabSection from "./collab-sections/FivethCollabSection.vue";
@@ -44,9 +41,6 @@ import SeventhCollabSection from "./collab-sections/SeventhCollabSection.vue";
 export default {
   name: "collaboration-solutions",
   components: {
-    LandingComponent,
-    ContactsSection,
-    BlogSection,
     FirstCollabSection,
     ThirdCollabSection,
     FivethCollabSection,

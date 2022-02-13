@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8 pt-3">
       <h2 class="title-yellow h1">Exclusive Management Of Passwordst</h2>
       <p class="desc">
@@ -21,14 +21,11 @@
         alt="Exclusive Management Of Passwordst"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "second-itSec-section",
-  components: { InfoSectionRight },
 };
 </script>

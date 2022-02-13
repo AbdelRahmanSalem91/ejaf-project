@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-orange h1">Define Virtualization?</h2>
       <p class="desc">
@@ -19,14 +19,11 @@
         alt="Define Virtualization?"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "first-vir-section",
-  components: { InfoSectionLeft },
 };
 </script>

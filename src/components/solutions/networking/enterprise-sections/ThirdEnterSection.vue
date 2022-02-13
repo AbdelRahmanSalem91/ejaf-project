@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-green h1">Wi-Fi and Its Potency</h2>
       <p class="desc">
@@ -20,13 +20,11 @@
         alt="Wi-Fi and Its Potency"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
 export default {
   name: "third-enter-section",
-  components: { InfoSectionLeft },
 };
 </script>

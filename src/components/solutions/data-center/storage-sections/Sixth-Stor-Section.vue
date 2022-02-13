@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8 pt-3">
       <h2 class="title-yellow h1">High Availability (HA) Cluster</h2>
       <h4 class="title-green">The Ultimate In High Availability</h4>
@@ -17,14 +17,11 @@
         alt="High Availability (HA) Cluster"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "sixth-stor-section",
-  components: { InfoSectionRight },
 };
 </script>

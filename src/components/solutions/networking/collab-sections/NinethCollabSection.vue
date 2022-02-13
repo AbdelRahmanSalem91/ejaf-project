@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8 pt-3">
       <h2 class="title-yellow h1">
         Creates A Real and Natural Connection with Colleagues
@@ -18,14 +18,11 @@
         alt="Creates A Real and Natural Connection with Colleagues"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "nineth-collab-section",
-  components: { InfoSectionRight },
 };
 </script>

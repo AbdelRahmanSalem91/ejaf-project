@@ -1,10 +1,10 @@
 <template>
   <div class="virtualization-page">
     <div class="land">
-      <landing-component>
+      <LandingComponent>
         Virtualization <br />
         Business Renovation
-      </landing-component>
+      </LandingComponent>
     </div>
     <div class="container">
       <first-vir-secion />
@@ -12,17 +12,14 @@
       <third-vir-section />
       <fourth-vir-section />
       <fivth-vir-section />
-      <contacts-section />
-      <blog-section />
+      <ContactsSection />
+      <BlogSection />
     </div>
   </div>
 </template>
 
 <script>
 import "../solutions.css";
-import LandingComponent from "../../shared/LandingComponent.vue";
-import ContactsSection from "../../shared/contacts/Contacts.vue";
-import BlogSection from "../../shared/blog/Blog.vue";
 import FivthVirSection from "./virtual-sections/FivthVirSection.vue";
 import FirstVirSecion from "./virtual-sections/FirstVirSecion.vue";
 import SecondVirSection from "./virtual-sections/SecondVirSection.vue";
@@ -32,9 +29,6 @@ import FourthVirSection from "./virtual-sections/FourthVirSection.vue";
 export default {
   name: "virtualization-component",
   components: {
-    LandingComponent,
-    ContactsSection,
-    BlogSection,
     FivthVirSection,
     FirstVirSecion,
     SecondVirSection,

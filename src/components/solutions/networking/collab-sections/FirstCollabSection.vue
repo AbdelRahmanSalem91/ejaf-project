@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-orange h1">Collaboration Solutions</h2>
       <p class="desc">
@@ -25,14 +25,11 @@
         alt="Collaboration Solutions"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "first-collab-section",
-  components: { InfoSectionLeft },
 };
 </script>

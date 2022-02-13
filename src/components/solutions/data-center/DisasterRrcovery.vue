@@ -1,26 +1,23 @@
 <template>
   <div class="disaster-recovery">
     <div class="land">
-      <landing-component>
+      <LandingComponent>
         Disaster Recovery Solutions <br />
         Data Backup and Disaster Recovery Solutions
-      </landing-component>
+      </LandingComponent>
     </div>
     <div class="container">
       <first-dis-section />
       <second-dis-section />
       <third-dis-section />
-      <contacts-section />
-      <blog-section />
+      <ContactsSection />
+      <BlogSection />
     </div>
   </div>
 </template>
 
 <script>
 import "../solutions.css";
-import LandingComponent from "../../shared/LandingComponent.vue";
-import ContactsSection from "../../shared/contacts/Contacts.vue";
-import BlogSection from "../../shared/blog/Blog.vue";
 import FirstDisSection from "./disaster-rec-sections/FirstDisSection.vue";
 import SecondDisSection from "./disaster-rec-sections/SecondDisSection.vue";
 import ThirdDisSection from "./disaster-rec-sections/ThirdDisSection.vue";
@@ -28,9 +25,6 @@ import ThirdDisSection from "./disaster-rec-sections/ThirdDisSection.vue";
 export default {
   name: "disaster-recovery",
   components: {
-    LandingComponent,
-    ContactsSection,
-    BlogSection,
     FirstDisSection,
     SecondDisSection,
     ThirdDisSection,

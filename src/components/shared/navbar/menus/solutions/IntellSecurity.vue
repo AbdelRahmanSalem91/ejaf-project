@@ -14,20 +14,22 @@
       aria-labelledby="intellSecurityMenuLinks"
     >
       <li class="nav-item dropdown">
-        <router-link to="/wam" class="nav-link"
+        <router-link to="/access-control" class="nav-link"
           >access control solution</router-link
         >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link">fire alarm solution</router-link>
+        <router-link to="/fire-alarm" class="nav-link"
+          >fire alarm solution</router-link
+        >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link"
+        <router-link to="/intrusion-detection" class="nav-link"
           >intrusion detection system</router-link
         >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link">ip cctv</router-link>
+        <router-link to="/ip-cctv" class="nav-link">ip cctv</router-link>
       </li>
     </ul>
   </li>

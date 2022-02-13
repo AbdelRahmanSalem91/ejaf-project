@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-green h1">Data Caching</h2>
       <p class="desc">
@@ -20,14 +20,11 @@
         alt="Wan Accelerator"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "seventh-wan-section",
-  components: { InfoSectionLeft },
 };
 </script>

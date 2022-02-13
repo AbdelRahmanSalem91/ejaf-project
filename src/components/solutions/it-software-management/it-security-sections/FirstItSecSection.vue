@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-orange h1">
         Firewall Security and Configuration Management
@@ -23,14 +23,11 @@
         alt="Firewall Security and Configuration Management"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "first-itSec-section",
-  components: { InfoSectionLeft },
 };
 </script>

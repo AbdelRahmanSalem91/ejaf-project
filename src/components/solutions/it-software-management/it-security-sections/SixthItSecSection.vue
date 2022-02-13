@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-yellow h1">Handling of Passwords Of Active Directory</h2>
       <ul>
@@ -43,14 +43,11 @@
         alt="Handling of Passwords Of Active Directory"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "sixth-itSec-section",
-  components: { InfoSectionRight },
 };
 </script>

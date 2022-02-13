@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-orange h1">
         Handling the Structure of Data Center and Network
@@ -41,14 +41,11 @@
         alt="Handling the Structure of Data Center and Network"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "first-net-per-section",
-  components: { InfoSectionLeft },
 };
 </script>

@@ -1,11 +1,11 @@
 <template>
   <div class="enterprise-network">
     <div class="land">
-      <landing-component>
+      <LandingComponent>
         Enterprise Network Solutions <br />
         EJAF provides an enterprise <br />
         network solution in Iraq
-      </landing-component>
+      </LandingComponent>
     </div>
     <div class="container">
       <first-enter-section />
@@ -14,17 +14,14 @@
       <fourth-enter-section />
       <fiveth-enter-section />
       <sixth-enter-section />
-      <contacts-section />
-      <blog-section />
+      <ContactsSection />
+      <BlogSection />
     </div>
   </div>
 </template>
 
 <script>
 import "../solutions.css";
-import LandingComponent from "../../shared/LandingComponent.vue";
-import ContactsSection from "../../shared/contacts/Contacts.vue";
-import BlogSection from "../../shared/blog/Blog.vue";
 import FirstEnterSection from "./enterprise-sections/FirstEnterSection.vue";
 import ThirdEnterSection from "./enterprise-sections/ThirdEnterSection.vue";
 import FourthEnterSection from "./enterprise-sections/FourthEnterSection.vue";
@@ -34,9 +31,6 @@ import SixthEnterSection from "./enterprise-sections/SixthEnterSection.vue";
 export default {
   name: "enterprise-network",
   components: {
-    LandingComponent,
-    ContactsSection,
-    BlogSection,
     FirstEnterSection,
     ThirdEnterSection,
     FourthEnterSection,

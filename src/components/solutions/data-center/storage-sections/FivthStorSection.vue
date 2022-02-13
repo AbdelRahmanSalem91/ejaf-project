@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8 mt-5">
       <h2 class="title-yellow h1">Storage Area Network (SAN)</h2>
       <h4 class="title-green">Powerful Centralized Storage With Fast I/O.</h4>
@@ -18,15 +18,12 @@
         alt="Storage Area Network (SAN)"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "fivth-stor-section",
-  components: { InfoSectionLeft },
 };
 </script>
 

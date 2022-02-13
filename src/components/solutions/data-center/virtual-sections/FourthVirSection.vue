@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8 mt-5">
       <h2 class="title-green h1">
         Desktop Virtualization will help your business To
@@ -41,14 +41,11 @@
         alt="Desktop Virtualization will help your business To"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "fourth-vir-section",
-  components: { InfoSectionRight },
 };
 </script>

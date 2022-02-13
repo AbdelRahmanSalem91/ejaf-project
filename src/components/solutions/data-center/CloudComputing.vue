@@ -1,11 +1,11 @@
 <template>
   <div class="cloud-computing-page">
     <div class="land">
-      <landing-component>
+      <LandingComponent>
         Cloud computing <br />
         on-demand availability of <br />
         computer system resources
-      </landing-component>
+      </LandingComponent>
     </div>
     <div class="container">
       <first-section />
@@ -13,17 +13,14 @@
       <third-section />
       <fourth-section />
       <fivth-section />
-      <contacts-section />
-      <blog-section />
+      <ContactsSection />
+      <BlogSection />
     </div>
   </div>
 </template>
 
 <script>
 import "../solutions.css";
-import LandingComponent from "../../shared/LandingComponent.vue";
-import ContactsSection from "../../shared/contacts/Contacts.vue";
-import BlogSection from "../../shared/blog/Blog.vue";
 import FirstSection from "./cloud-comp-sections/FirstCompSection.vue";
 import SecondSection from "./cloud-comp-sections/SecondCompSection.vue";
 import ThirdSection from "./cloud-comp-sections/ThirdCompSection.vue";
@@ -33,9 +30,6 @@ import FivthSection from "./cloud-comp-sections/FivthCompSection.vue";
 export default {
   name: "cloud-computing-component",
   components: {
-    LandingComponent,
-    ContactsSection,
-    BlogSection,
     FirstSection,
     SecondSection,
     ThirdSection,

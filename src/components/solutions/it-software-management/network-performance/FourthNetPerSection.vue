@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-yellow h1">Management Of Network Configuration</h2>
       <p class="desc">
@@ -18,14 +18,11 @@
         alt="Management Of Network Configuration"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "fourth-net-per-section",
-  components: { InfoSectionRight },
 };
 </script>

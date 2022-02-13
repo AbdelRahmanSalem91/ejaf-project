@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-yellow h1">
         Coordinated Desktop and Mobile Device Management
@@ -24,14 +24,11 @@
         alt="Coordinated Desktop and Mobile Device Management"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "tenth-itSec-section",
-  components: { InfoSectionRight },
 };
 </script>

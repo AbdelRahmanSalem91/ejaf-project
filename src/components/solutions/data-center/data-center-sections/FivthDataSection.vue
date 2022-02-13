@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8 pt-3">
       <h2 class="title-yellow h1">Upgraded to the New Standards</h2>
       <p class="desc">
@@ -19,14 +19,11 @@
         alt="Upgraded to the New Standards"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "fivth-data-section",
-  components: { InfoSectionLeft },
 };
 </script>

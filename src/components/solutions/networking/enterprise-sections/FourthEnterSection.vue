@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8 pt-3">
       <h2 class="title-yellow h1">Network and Its Supervision</h2>
       <p class="desc">
@@ -16,13 +16,11 @@
         alt="Network and Its Supervision"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
 export default {
   name: "fourth-enter-section",
-  components: { InfoSectionRight },
 };
 </script>

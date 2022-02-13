@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8 pt-3">
       <h2 class="title-yellow h1">Advantages of Virtualization</h2>
       <ul class="desc">
@@ -36,14 +36,11 @@
         alt="Advantages of Virtualization"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "fivth-vir-section",
-  components: { InfoSectionLeft },
 };
 </script>

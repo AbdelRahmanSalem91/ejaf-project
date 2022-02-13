@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8 pt-3">
       <h2 class="title-green h1">Benefits of Backup Solutions</h2>
       <p>The main services include and not limitd to:</p>
@@ -36,14 +36,11 @@
         alt="Recovery & Backup Solutions"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "fivth-rep-section",
-  components: { InfoSectionLeft },
 };
 </script>

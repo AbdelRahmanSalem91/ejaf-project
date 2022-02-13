@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8 pt-3">
       <h2 class="title-yellow h1">Why Collaboration Is Important?</h2>
       <p class="desc">
@@ -22,14 +22,11 @@
         alt="Why Collaboration Is Important?"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "third-collab-section",
-  components: { InfoSectionRight },
 };
 </script>

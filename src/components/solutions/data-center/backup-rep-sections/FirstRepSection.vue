@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-orange h1 mb-3 mt-5 pt-5">
         Backup Specialist Ejaf Technology
@@ -20,14 +20,11 @@
         alt="Explain Storage?"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "first-rep-section",
-  components: { InfoSectionLeft },
 };
 </script>

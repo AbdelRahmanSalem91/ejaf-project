@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-orange h1">What is the purpose of Wan Optimization?</h2>
       <p class="desc">
@@ -21,14 +21,11 @@
         alt="Wan Accelerator"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "first-wan-section",
-  components: { InfoSectionLeft },
 };
 </script>

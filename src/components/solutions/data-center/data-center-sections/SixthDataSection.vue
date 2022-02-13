@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-orange h1">
         Build Solitary Optimized Computing Batches
@@ -21,15 +21,12 @@
         alt="Build Solitary Optimized Computing Batches"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "sixth-data-section",
-  components: { InfoSectionRight },
 };
 </script>
 

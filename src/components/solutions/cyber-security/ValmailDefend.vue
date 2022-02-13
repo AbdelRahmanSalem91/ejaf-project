@@ -1,10 +1,10 @@
 <template>
   <div class="valimail-defend">
     <div class="land">
-      <landing-component>
+      <LandingComponent>
         Valimail Defend <br />
         Email Defender Soulation
-      </landing-component>
+      </LandingComponent>
     </div>
     <div class="container">
       <first-section />
@@ -13,30 +13,24 @@
       <fourth-section />
       <fivth-section />
       <six-section />
-      <contacts-section />
-      <blog-section />
+      <ContactsSection />
+      <BlogSection />
     </div>
   </div>
 </template>
 
 <script>
 import "../solutions.css";
-import LandingComponent from "../../shared/LandingComponent.vue";
-import ContactsSection from "../../shared/contacts/Contacts.vue";
-import BlogSection from "../../shared/blog/Blog.vue";
-import FirstSection from "./sections/FirstSection.vue";
-import SecondSection from "./sections/SecondSection.vue";
-import ThirdSection from "./sections/ThirdSection.vue";
-import FourthSection from "./sections/FourthSection.vue";
-import FivthSection from "./sections/FivthSection.vue";
-import SixSection from "./sections/SixSection.vue";
+import FirstSection from "./valimail-sections/FirstSection.vue";
+import SecondSection from "./valimail-sections/SecondSection.vue";
+import ThirdSection from "./valimail-sections/ThirdSection.vue";
+import FourthSection from "./valimail-sections/FourthSection.vue";
+import FivthSection from "./valimail-sections/FivthSection.vue";
+import SixSection from "./valimail-sections/SixSection.vue";
 
 export default {
   name: "valimail-defend",
   components: {
-    LandingComponent,
-    ContactsSection,
-    BlogSection,
     FirstSection,
     SecondSection,
     ThirdSection,

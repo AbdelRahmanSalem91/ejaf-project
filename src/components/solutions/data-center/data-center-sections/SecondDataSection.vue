@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8 pt-3">
       <h2 class="title-yellow h1">Data centers in Iraq</h2>
       <p class="desc">
@@ -18,14 +18,11 @@
         alt="Data centers in Iraq"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "second-data-section",
-  components: { InfoSectionRight },
 };
 </script>

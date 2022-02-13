@@ -14,10 +14,10 @@
       aria-labelledby="softwareMangementMenuLinks"
     >
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link">ejaf erp</router-link>
+        <router-link to="/ejaf-erp" class="nav-link">ejaf erp</router-link>
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link">odoo erp</router-link>
+        <router-link to="/odoo-erp" class="nav-link">odoo erp</router-link>
       </li>
       <li class="nav-item dropdown">
         <router-link to="/" class="nav-link">oracle fusion erp</router-link>

@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-orange h1">Network Configuration Management(NCM)</h2>
       <p class="desc">
@@ -17,14 +17,11 @@
         alt="Network Configuration Management(NCM)"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "nineth-itSec-section",
-  components: { InfoSectionLeft },
 };
 </script>

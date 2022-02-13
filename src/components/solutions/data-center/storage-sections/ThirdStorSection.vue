@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8 pt-3">
       <h2 class="title-yellow h1">Network-Attached Storage (NAS)</h2>
       <h4>Sharing Unified Data Between Web Servers.</h4>
@@ -16,14 +16,11 @@
         alt="Network-Attached Storage (NAS)"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "third-stor-section",
-  components: { InfoSectionRight },
 };
 </script>

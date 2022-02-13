@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-yellow h1">Management Of Cloud Security & Log</h2>
       <p class="desc">
@@ -19,14 +19,11 @@
         alt="Management Of Cloud Security & Log"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "twelve-itSec-section",
-  components: { InfoSectionRight },
 };
 </script>

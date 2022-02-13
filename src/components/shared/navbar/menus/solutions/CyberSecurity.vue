@@ -19,7 +19,7 @@
         >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link"
+        <router-link to="/enterprise-security" class="nav-link"
           >enterprise security solutions</router-link
         >
       </li>

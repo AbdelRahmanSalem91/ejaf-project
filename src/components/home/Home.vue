@@ -4,8 +4,8 @@
     <services-section />
     <technological-section />
     <partners-section />
-    <contacts-section />
-    <blog-section />
+    <ContactsSection />
+    <BlogSection />
   </div>
 </template>
 

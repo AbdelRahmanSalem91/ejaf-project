@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8 pt-3">
       <h2 class="title-yellow h1">
         To Inspect And Report A Change In Exchange Server
@@ -85,14 +85,11 @@
         alt="To Inspect And Report A Change In Exchange Server"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "fivth-itSec-section",
-  components: { InfoSectionLeft },
 };
 </script>

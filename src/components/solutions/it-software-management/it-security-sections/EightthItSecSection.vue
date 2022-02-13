@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-yellow h1">
         The Security And Passivity Of MicrosoftOffice-365
@@ -19,14 +19,11 @@
         alt="The Security And Passivity Of MicrosoftOffice-365"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "eightth-itSec-section",
-  components: { InfoSectionRight },
 };
 </script>

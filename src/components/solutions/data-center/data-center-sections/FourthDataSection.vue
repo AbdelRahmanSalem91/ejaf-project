@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8 mt-5">
       <h2 class="title-green h1">Supervision in the Migration of Hardware</h2>
       <p class="desc">
@@ -16,14 +16,11 @@
         alt="Supervision in the Migration of Hardware"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "fourth-data-section",
-  components: { InfoSectionRight },
 };
 </script>

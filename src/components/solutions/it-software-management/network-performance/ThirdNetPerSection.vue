@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8 mt-5">
       <h2 class="title-orange h1">
         The Management Of Network Traffic Analysis and Bandwidth
@@ -44,14 +44,11 @@
         alt="The Management Of Network Traffic Analysis and Bandwidth"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "third-net-per-section",
-  components: { InfoSectionLeft },
 };
 </script>

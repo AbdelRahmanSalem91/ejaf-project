@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-orange h1">
         The Inspection Of File Servers And The Reporting Tools
@@ -47,14 +47,11 @@
         alt="The Inspection Of File Servers And The Reporting Tools"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "fivteen-itSec-section",
-  components: { InfoSectionLeft },
 };
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-orange h1">Data Center Networks</h2>
       <p class="desc">
@@ -21,13 +21,11 @@
         alt="Data Center Networks"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
 export default {
   name: "first-enter-section",
-  components: { InfoSectionLeft },
 };
 </script>

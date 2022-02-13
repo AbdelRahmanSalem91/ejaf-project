@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8 pt-3">
       <h2 class="title-yellow h1">Recovery & Backup Solutions</h2>
       <p><strong>Are you ready to risk it all?</strong></p>
@@ -24,15 +24,12 @@
         alt="Recovery & Backup Solutions"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "fourth-rep-section",
-  components: { InfoSectionRight },
 };
 </script>
 

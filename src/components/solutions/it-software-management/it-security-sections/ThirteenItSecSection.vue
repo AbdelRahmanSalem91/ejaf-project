@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-orange h1">
         Information About Patch Windows, Mac, Linux, and third-party
@@ -53,14 +53,11 @@
         alt="Information About Patch Windows, Mac, Linux, and third-party"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "thirteen-itSec-section",
-  components: { InfoSectionLeft },
 };
 </script>

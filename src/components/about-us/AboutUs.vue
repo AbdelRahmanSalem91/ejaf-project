@@ -23,8 +23,8 @@
     stand tall as a proof of how EJAF changed the landscape of security and
     automation in Iraq.
   </p>
-  <contacts-section />
-  <blog-section />
+  <ContactsSection />
+  <BlogSection />
 </template>
 
 <script>

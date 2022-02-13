@@ -1,11 +1,11 @@
 <template>
   <div class="it-security-page">
     <div class="land">
-      <landing-component>
+      <LandingComponent>
         IT Security Management <br />
         Ensure the Confidentiality, Integrity, <br />
         & Availability of an Organization's Information.
-      </landing-component>
+      </LandingComponent>
     </div>
     <div class="container">
       <first-it-sec-section />
@@ -23,17 +23,14 @@
       <thirteen-it-sec-section />
       <fourteen-it-sec-section />
       <fivteen-it-sec-section />
-      <contacts-section />
-      <blog-section />
+      <ContactsSection />
+      <BlogSection />
     </div>
   </div>
 </template>
 
 <script>
 import "../solutions.css";
-import LandingComponent from "../../shared/LandingComponent.vue";
-import ContactsSection from "../../shared/contacts/Contacts.vue";
-import BlogSection from "../../shared/blog/Blog.vue";
 import FirstItSecSection from "./it-security-sections/FirstItSecSection.vue";
 import ThirdItSecSection from "./it-security-sections/ThirdItSecSection.vue";
 import FourthItSecSection from "./it-security-sections/FourthItSecSection.vue";
@@ -53,9 +50,6 @@ import EleventhItSecSection from "./it-security-sections/EleventhItSecSection.vu
 export default {
   name: "it-security",
   components: {
-    LandingComponent,
-    ContactsSection,
-    BlogSection,
     FirstItSecSection,
     ThirdItSecSection,
     FourthItSecSection,

@@ -1,10 +1,10 @@
 <template>
   <div class="data-center">
     <div class="land">
-      <landing-component>
+      <LandingComponent>
         Data Centers in Iraq <br />
         Goodbye to Conventional Data Centers
-      </landing-component>
+      </LandingComponent>
     </div>
     <div class="container">
       <first-data-section />
@@ -13,17 +13,14 @@
       <fourth-data-section />
       <fivth-data-section />
       <sixth-data-section />
-      <contacts-section />
-      <blog-section />
+      <ContactsSection />
+      <BlogSection />
     </div>
   </div>
 </template>
 
 <script>
 import "../solutions.css";
-import LandingComponent from "../../shared/LandingComponent.vue";
-import ContactsSection from "../../shared/contacts/Contacts.vue";
-import BlogSection from "../../shared/blog/Blog.vue";
 import FirstDataSection from "./data-center-sections/FirstDataSection.vue";
 import SecondDataSection from "./data-center-sections/SecondDataSection.vue";
 import ThirdDataSecton from "./data-center-sections/ThirdDataSecton.vue";
@@ -34,9 +31,6 @@ import SixthDataSection from "./data-center-sections/SixthDataSection.vue";
 export default {
   name: "data-center",
   components: {
-    LandingComponent,
-    ContactsSection,
-    BlogSection,
     FirstDataSection,
     SecondDataSection,
     ThirdDataSecton,

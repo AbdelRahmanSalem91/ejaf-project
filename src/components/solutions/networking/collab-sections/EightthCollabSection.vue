@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-green h1">Virtual Office</h2>
       <p class="desc">
@@ -16,14 +16,11 @@
         alt="Virtual Office"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "eightth-collab-section",
-  components: { InfoSectionLeft },
 };
 </script>

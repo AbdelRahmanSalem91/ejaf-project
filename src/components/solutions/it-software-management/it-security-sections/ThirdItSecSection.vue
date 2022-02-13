@@ -1,5 +1,5 @@
 <template>
-  <info-section-left>
+  <LeftSection>
     <div class="info-desc col-lg-8 mt-5">
       <h2 class="title-orange h1">
         Secure Shell(SSH)Key and Secure Sockets Layer Certificate Management
@@ -19,14 +19,11 @@
         alt="Secure Shell(SSH)Key and Secure Sockets Layer Certificate Management"
       />
     </div>
-  </info-section-left>
+  </LeftSection>
 </template>
 
 <script>
-import InfoSectionLeft from "../../../shared/InfoSectionLeft.vue";
-
 export default {
   name: "third-itSec-section",
-  components: { InfoSectionLeft },
 };
 </script>

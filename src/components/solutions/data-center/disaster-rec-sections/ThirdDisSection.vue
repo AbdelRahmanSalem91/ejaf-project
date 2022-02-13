@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8 pt-3">
       <h2 class="title-green h1">How can we help?</h2>
       <p class="desc">
@@ -16,14 +16,11 @@
         alt="How can we help?"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "third-dis-section",
-  components: { InfoSectionRight },
 };
 </script>

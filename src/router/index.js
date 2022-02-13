@@ -55,8 +55,35 @@ const NetworkPerformancePage = () =>
   );
 const ValmailDefendPage = () =>
   import(
-    /* webpackChunkName: "const ValmailDefendPage = () =>
-" */ "@/views/cyber-security/ValmailDefendPage.vue"
+    /* webpackChunkName: "ValmailDefendPage" */ "@/views/cyber-security/ValmailDefendPage.vue"
+  );
+const EnterpriseSecurityPage = () =>
+  import(
+    /* webpackChunkName: "EnterpriseSecurityPage" */ "@/views/cyber-security/EnterpriseSecurityPage.vue"
+  );
+const AccessControlPage = () =>
+  import(
+    /* webpackChunkName: "AccessControlPage" */ "@/views/intelligent-security/AccessControlPage.vue"
+  );
+const FireAlarmPage = () =>
+  import(
+    /* webpackChunkName: "FireAlarmPage" */ "@/views/intelligent-security/FireAlarmPage.vue"
+  );
+const IntrusionDetectionPage = () =>
+  import(
+    /* webpackChunkName: "IntrusionDetectionPage" */ "@/views/intelligent-security/IntrusionDetectionPage.vue"
+  );
+const IpCctvPage = () =>
+  import(
+    /* webpackChunkName: "IpCctvPage" */ "@/views/intelligent-security/IpCctvPage.vue"
+  );
+const EjaferpPage = () =>
+  import(
+    /* webpackChunkName: "IpCctvPage" */ "@/views/software-management/EjafErpPage.vue"
+  );
+const OdooErpPage = () =>
+  import(
+    /* webpackChunkName: "IpCctvPage" */ "@/views/software-management/OdooErpPage.vue"
   );
 
 const routes = [
@@ -134,6 +161,41 @@ const routes = [
     path: "/valimail-defend",
     name: "valimail-defend",
     component: ValmailDefendPage,
+  },
+  {
+    path: "/enterprise-security",
+    name: "enterprise-security",
+    component: EnterpriseSecurityPage,
+  },
+  {
+    path: "/access-control",
+    name: "access-control",
+    component: AccessControlPage,
+  },
+  {
+    path: "/fire-alarm",
+    name: "fire-alarm",
+    component: FireAlarmPage,
+  },
+  {
+    path: "/intrusion-detection",
+    name: "intrusion-detection",
+    component: IntrusionDetectionPage,
+  },
+  {
+    path: "/ip-cctv",
+    name: "ip-cctv",
+    component: IpCctvPage,
+  },
+  {
+    path: "/ejaf-erp",
+    name: "ejaf-erp",
+    component: EjaferpPage,
+  },
+  {
+    path: "/odoo-erp",
+    name: "odoo-erp",
+    component: OdooErpPage,
   },
   {
     path: "/it-services",

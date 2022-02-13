@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8 pt-3">
       <h2 class="title-yellow h1">Campus Area Network</h2>
       <p class="desc">
@@ -21,13 +21,11 @@
         alt="Campus Area Network"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
 export default {
   name: "second-enter-section",
-  components: { InfoSectionRight },
 };
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <info-section-right>
+  <RightSection>
     <div class="info-desc col-lg-8">
       <h2 class="title-yellow h1">SIEM and The Network Threat</h2>
       <ul>
@@ -57,14 +57,11 @@
         alt="SIEM and The Network Threat"
       />
     </div>
-  </info-section-right>
+  </RightSection>
 </template>
 
 <script>
-import InfoSectionRight from "../../../shared/InfoSectionRight.vue";
-
 export default {
   name: "fourteen-itSec-section",
-  components: { InfoSectionRight },
 };
 </script>

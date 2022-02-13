@@ -20,7 +20,9 @@
         <router-link to="/odoo-erp" class="nav-link">odoo erp</router-link>
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link">oracle fusion erp</router-link>
+        <router-link to="/oracle-fusion-erp" class="nav-link"
+          >oracle fusion erp</router-link
+        >
       </li>
     </ul>
   </li>

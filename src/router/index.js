@@ -83,7 +83,11 @@ const EjaferpPage = () =>
   );
 const OdooErpPage = () =>
   import(
-    /* webpackChunkName: "IpCctvPage" */ "@/views/software-management/OdooErpPage.vue"
+    /* webpackChunkName: "OdooErpPage" */ "@/views/software-management/OdooErpPage.vue"
+  );
+const OracleFusionErpPage = () =>
+  import(
+    /* webpackChunkName: "OracleFusionErpPage" */ "@/views/software-management/OracleFusionErpPage.vue"
   );
 
 const routes = [
@@ -196,6 +200,11 @@ const routes = [
     path: "/odoo-erp",
     name: "odoo-erp",
     component: OdooErpPage,
+  },
+  {
+    path: "/oracle-fusion-erp",
+    name: "oracle-fusion-erp",
+    component: OracleFusionErpPage,
   },
   {
     path: "/it-services",

@@ -22,7 +22,10 @@
         <span class="nav-icon"></span>
         <span class="nav-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <div
+        class="collapse navbar-collapse justify-content-start"
+        id="navbarNav"
+      >
         <ul class="navbar-nav">
           <li class="nav-item">
             <router-link
@@ -42,16 +45,6 @@
             </a>
             <solutions-menu />
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle text-white text-uppercase basic-link"
-              href="#"
-              id="navbarDropdownMenuLink"
-            >
-              services
-            </a>
-            <services-menu />
-          </li>
           <li class="nav-item">
             <router-link
               class="nav-link text-white text-uppercase basic-link"
@@ -66,16 +59,6 @@
               >contact us</router-link
             >
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle text-white text-uppercase basic-link"
-              href="#"
-              id="navbarDropdownMenuLink"
-            >
-              support
-            </a>
-            <support-menu />
-          </li>
         </ul>
       </div>
     </div>
@@ -84,11 +67,9 @@
 
 <script>
 import SolutionsMenu from "./menus/SolutionsMenu.vue";
-import ServicesMenu from "./menus/ServicesMenu.vue";
-import SupportMenu from "./menus/SupportMenu.vue";
 import "./navbar.css";
 export default {
-  components: { SolutionsMenu, ServicesMenu, SupportMenu },
+  components: { SolutionsMenu },
   name: "navbar-component",
   data() {
     return {

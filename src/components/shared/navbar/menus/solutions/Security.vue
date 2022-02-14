@@ -14,22 +14,24 @@
       aria-labelledby="securitySolutionMenuLinks"
     >
       <li class="nav-item dropdown">
-        <router-link to="/" class="">network cloud security</router-link>
+        <router-link to="/" class="nav-link"
+          >network cloud security</router-link
+        >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="">endpoint security</router-link>
+        <router-link to="/" class="nav-link">endpoint security</router-link>
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="">application security</router-link>
+        <router-link to="/" class="nav-link">application security</router-link>
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="">data security</router-link>
+        <router-link to="/" class="nav-link">data security</router-link>
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="">industrial security</router-link>
+        <router-link to="/" class="nav-link">industrial security</router-link>
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="">security operations</router-link>
+        <router-link to="/" class="nav-link">security operations</router-link>
       </li>
     </ul>
   </li>

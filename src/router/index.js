@@ -9,10 +9,6 @@ const WanSolutionPage = () =>
   import(
     /* webpackChunkName: "WanSolutionPage" */ "@/views/networking-solutions/WanSolutionPage.vue"
   );
-const ItServicesPage = () =>
-  import(
-    /* webpackChunkName: "ItServicesPage" */ "@/components/ItServsicePage.vue"
-  );
 const EnterpriseNetwork = () =>
   import(
     /* webpackChunkName: "EnterpriseNetwork" */ "@/views/networking-solutions/EnterpriseNetworkPage.vue"
@@ -205,11 +201,6 @@ const routes = [
     path: "/oracle-fusion-erp",
     name: "oracle-fusion-erp",
     component: OracleFusionErpPage,
-  },
-  {
-    path: "/it-services",
-    name: "It-Services",
-    component: ItServicesPage,
   },
   {
     path: "/:catchAll(.*)*",

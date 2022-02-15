@@ -86,6 +86,8 @@ const OracleFusionErpPage = () =>
     /* webpackChunkName: "OracleFusionErpPage" */ "@/views/software-management/OracleFusionErpPage.vue"
   );
 
+// routes
+
 const routes = [
   {
     path: "/",

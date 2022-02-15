@@ -69,7 +69,7 @@
         </div>
       </div>
     </div>
-    <div class="logo text-center my-5 py-5 col-8 mx-auto">
+    <div class="text-center my-5 py-5 col-8 mx-auto">
       <img src="../../../assets/logo.png" alt="Ejaf Technology" class="logo" />
     </div>
   </section>
@@ -90,7 +90,7 @@ a {
 }
 @media (max-width: 991px) {
   .logo {
-    max-width: 70%;
+    max-width: 80%;
   }
 }
 </style>

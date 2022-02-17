@@ -14,22 +14,22 @@
       aria-labelledby="cyberSecurityMenuLinks"
     >
       <li class="nav-item dropdown">
-        <router-link to="/valimail-defend" class="nav-link"
+        <router-link to="/microsoft-products" class="nav-link"
           >Microsoft Products & Services Agreement</router-link
         >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/enterprise-security" class="nav-link">
+        <router-link to="/microsoft-cloud" class="nav-link">
           Microsoft Cloud Agreement</router-link
         >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/enterprise-security" class="nav-link">
+        <router-link to="/microsoft-csp" class="nav-link">
           Microsoft CSP License</router-link
         >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/enterprise-security" class="nav-link">
+        <router-link to="/microsoft-azure" class="nav-link">
           Microsoft Azure</router-link
         >
       </li>

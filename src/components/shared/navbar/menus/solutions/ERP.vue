@@ -14,12 +14,12 @@
       aria-labelledby="cyberSecurityMenuLinks"
     >
       <li class="nav-item dropdown">
-        <router-link to="/valimail-defend" class="nav-link"
+        <router-link to="/oracle-erp-business" class="nav-link"
           >ORACLE REP BUSINESS SOLUTIONS</router-link
         >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/enterprise-security" class="nav-link">
+        <router-link to="/oracle-cloud" class="nav-link">
           ORACLE CLOUD SOLUTIONS</router-link
         >
       </li>

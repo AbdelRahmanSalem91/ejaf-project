@@ -14,13 +14,19 @@
       aria-labelledby="cloudSolutionMenuLinks"
     >
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link">private, public cloud</router-link>
+        <router-link to="/private-public-cloud" class="nav-link"
+          >private, public cloud</router-link
+        >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link">managed services</router-link>
+        <router-link to="/managed-services" class="nav-link"
+          >managed services</router-link
+        >
       </li>
       <li class="nav-item dropdown">
-        <router-link to="/" class="nav-link">cloud applications</router-link>
+        <router-link to="/cloud-applications" class="nav-link"
+          >cloud applications</router-link
+        >
       </li>
     </ul>
   </li>

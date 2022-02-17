@@ -85,8 +85,78 @@ const OracleFusionErpPage = () =>
   import(
     /* webpackChunkName: "OracleFusionErpPage" */ "@/views/software-management/OracleFusionErpPage.vue"
   );
-
-// routes
+const ItServicesPage = () =>
+  import(
+    /* webpackChunkName: "ItServicesPage" */ "@/views/services/ItServicesPage.vue"
+  );
+const NetworkPenetrationPage = () =>
+  import(
+    /* webpackChunkName: "NetworkPenetrationPage" */ "@/views/services/NetworkPenetrationPage.vue"
+  );
+const HostingSolutionsPage = () =>
+  import(
+    /* webpackChunkName: "HostingSolutionsPage" */ "@/views/services/HostingSolutionsPage.vue"
+  );
+const OracleErpBusinessPage = () =>
+  import(
+    /* webpackChunkName: "OracleErpBusinessPage" */ "@/views/erp/OracleErpBusinessPage.vue"
+  );
+const OracleCloudPage = () =>
+  import(
+    /* webpackChunkName: "OracleCloudPage" */ "@/views/erp/OracleCloudPage.vue"
+  );
+const MicrosoftProductsPage = () =>
+  import(
+    /* webpackChunkName: "MicrosoftProductsPage" */ "@/views/volume-licensing/MicrosoftProductsPage.vue"
+  );
+const MicrosoftCloudPage = () =>
+  import(
+    /* webpackChunkName: "MicrosoftCloudPage" */ "@/views/volume-licensing/MicrosoftCloudPage.vue"
+  );
+const MicrosoftCspPage = () =>
+  import(
+    /* webpackChunkName: "MicrosoftCspPage" */ "@/views/volume-licensing/MicrosoftCspPage.vue"
+  );
+const MicrosoftAzurePage = () =>
+  import(
+    /* webpackChunkName: "MicrosoftAzurePage" */ "@/views/volume-licensing/MicrosoftAzurePage.vue"
+  );
+const PrivPublCloudPage = () =>
+  import(
+    /* webpackChunkName: "PrivPublCloudPage" */ "@/views/cloud-solutions/PrivPublCloudPage.vue"
+  );
+const ManagedServicesPage = () =>
+  import(
+    /* webpackChunkName: "ManagedServicesPage" */ "@/views/cloud-solutions/ManagedServicesPage.vue"
+  );
+const CloudApplicationsPage = () =>
+  import(
+    /* webpackChunkName: "CloudApplicationsPage" */ "@/views/cloud-solutions/CloudApplicationsPage.vue"
+  );
+const NetCloudSecPage = () =>
+  import(
+    /* webpackChunkName: "NetCloudSecPage" */ "@/views/security-solutions/NetCloudSecPage.vue"
+  );
+const ApplicationSecPage = () =>
+  import(
+    /* webpackChunkName: "ApplicationSecPage" */ "@/views/security-solutions/ApplicationSecPage.vue"
+  );
+const DataSecPage = () =>
+  import(
+    /* webpackChunkName: "DataSecPage" */ "@/views/security-solutions/DataSecPage.vue"
+  );
+const EndpointSecPage = () =>
+  import(
+    /* webpackChunkName: "EndpointSecPage" */ "@/views/security-solutions/EndpointSecPage.vue"
+  );
+const IndustrialSecPage = () =>
+  import(
+    /* webpackChunkName: "IndustrialSecPage" */ "@/views/security-solutions/IndustrialSecPage.vue"
+  );
+const SecOperationsPage = () =>
+  import(
+    /* webpackChunkName: "SecOperationsPage" */ "@/views/security-solutions/SecOperationsPage.vue"
+  );
 
 const routes = [
   {
@@ -203,6 +273,96 @@ const routes = [
     path: "/oracle-fusion-erp",
     name: "oracle-fusion-erp",
     component: OracleFusionErpPage,
+  },
+  {
+    path: "/it-services",
+    name: "it-services",
+    component: ItServicesPage,
+  },
+  {
+    path: "/network-penetration-testing",
+    name: "network-penetration-testing",
+    component: NetworkPenetrationPage,
+  },
+  {
+    path: "/hosting-solutions",
+    name: "hosting-solutions",
+    component: HostingSolutionsPage,
+  },
+  {
+    path: "/oracle-erp-business",
+    name: "oracle-erp-business",
+    component: OracleErpBusinessPage,
+  },
+  {
+    path: "/oracle-cloud",
+    name: "oracle-cloud",
+    component: OracleCloudPage,
+  },
+  {
+    path: "/microsoft-products",
+    name: "microsoft-products",
+    component: MicrosoftProductsPage,
+  },
+  {
+    path: "/microsoft-cloud",
+    name: "microsoft-cloud",
+    component: MicrosoftCloudPage,
+  },
+  {
+    path: "/microsoft-csp",
+    name: "microsoft-csp",
+    component: MicrosoftCspPage,
+  },
+  {
+    path: "/microsoft-azure",
+    name: "microsoft-azure",
+    component: MicrosoftAzurePage,
+  },
+  {
+    path: "/private-public-cloud",
+    name: "private-public-cloud",
+    component: PrivPublCloudPage,
+  },
+  {
+    path: "/managed-services",
+    name: "managed-services",
+    component: ManagedServicesPage,
+  },
+  {
+    path: "/cloud-applications",
+    name: "cloud-applications",
+    component: CloudApplicationsPage,
+  },
+  {
+    path: "/network-cloud-security",
+    name: "network-cloud-security",
+    component: NetCloudSecPage,
+  },
+  {
+    path: "/application-security",
+    name: "application-security",
+    component: ApplicationSecPage,
+  },
+  {
+    path: "/data-security",
+    name: "data-security",
+    component: DataSecPage,
+  },
+  {
+    path: "/endpoint-security",
+    name: "endpoint-security",
+    component: EndpointSecPage,
+  },
+  {
+    path: "/industrial-security",
+    name: "industrial-security",
+    component: IndustrialSecPage,
+  },
+  {
+    path: "/security-operations",
+    name: "security-operations",
+    component: SecOperationsPage,
   },
   {
     path: "/:catchAll(.*)*",

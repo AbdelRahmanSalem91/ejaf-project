@@ -85,7 +85,7 @@ export default {
 
 <style scoped>
 .title {
-  color: var(--blue-color) !important;
+  color: var(--red-color) !important;
 }
 .desc {
   font-size: 18pt;

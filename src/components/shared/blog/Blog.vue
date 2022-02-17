@@ -86,10 +86,13 @@ small {
   font-size: 12px;
 }
 a {
-  color: var(--blue-color) !important;
+  color: var(--red-color) !important;
+}
+.blog .logo {
+  width: 50%;
 }
 @media (max-width: 991px) {
-  .logo {
+  .blog .logo {
     max-width: 80%;
   }
 }

@@ -67,6 +67,6 @@ input {
   background-color: var(--green-color);
 }
 a {
-  color: var(--blue-color) !important;
+  color: var(--red-color) !important;
 }
 </style>

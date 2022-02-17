@@ -14,27 +14,27 @@ a {
 .onScroll {
   background-color: var(--main-color);
 }
-.logo {
-  width: 25%;
+.nav .logo {
+  width: 20%;
 }
 .logo img {
   max-width: 90%;
 }
 .basic-link:hover,
 .basic-link.active {
-  color: var(--blue-color) !important;
+  color: var(--red-color) !important;
 }
 .drop-menu {
   background-color: var(--main-color) !important;
 }
 .drop-menu li:hover {
-  background-color: var(--blue-color) !important;
+  background-color: var(--red-color) !important;
 }
 button:hover {
-  border-color: var(--blue-color) !important;
+  border-color: var(--red-color) !important;
 }
 button:hover .nav-icon {
-  background-color: var(--blue-color);
+  background-color: var(--red-color);
 }
 .nav-icon {
   display: block;

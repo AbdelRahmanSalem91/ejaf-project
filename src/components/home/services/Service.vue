@@ -34,6 +34,7 @@ h3 {
   font-size: 24px;
 }
 a {
-  transition: color 400ms, background-color 400ms;
+  transition: all 0.3s;
+  color: var(--red-color) !important;
 }
 </style>

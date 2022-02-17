@@ -29,9 +29,9 @@ export default {
 
 <style scoped>
 .button {
-  background-color: var(--blue-color);
+  background-color: var(--red-color);
 }
 h4 a {
-  color: var(--blue-color);
+  color: var(--red-color);
 }
 </style>

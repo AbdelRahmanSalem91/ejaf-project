@@ -24,7 +24,7 @@ export default {
   color: var(--orange-color);
 }
 .partners h2 {
-  color: var(--blue-color);
+  color: var(--red-color);
 }
 .countries h2 {
   color: var(--orange-color);

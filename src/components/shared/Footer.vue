@@ -47,7 +47,7 @@ export default {
 }
 .copyright a,
 .copyright a:hover {
-  color: var(--blue-color) !important;
+  color: var(--red-color) !important;
 }
 ul {
   padding-left: 0;

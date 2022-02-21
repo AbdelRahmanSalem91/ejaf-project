@@ -24,6 +24,9 @@ export default {
 </script>
 
 <style scoped>
+.service-component {
+  padding: 0 15px;
+}
 .service {
   width: 255px;
 }

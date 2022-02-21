@@ -1,8 +1,8 @@
 <template>
-  <section class="intro text-center mt-5">
-    <h2 class="text-capitalize mb-4">ejaf technology</h2>
-    <h3 class="mb-5">is your trusted source in IT services and support</h3>
-    <description-component :desc="desc" />
+  <section class="intro text-center">
+    <h2 class="text-capitalize mb-4">technology partner</h2>
+    <h3 class="mb-4">is your trusted source in IT services and support</h3>
+    <description-component :desc="desc" class="intro-desc" />
   </section>
 </template>
 

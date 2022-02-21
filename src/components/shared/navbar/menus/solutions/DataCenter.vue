@@ -5,7 +5,6 @@
       href="#"
       id="dataCenterMenuLinks"
       role="button"
-      data-bs-toggle="dropdown"
       aria-expanded="false"
       >data center & system solutions</a
     >

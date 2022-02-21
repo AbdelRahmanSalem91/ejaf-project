@@ -5,7 +5,6 @@
       href="#"
       id="itSoftwareMenuLinks"
       role="button"
-      data-bs-toggle="dropdown"
       aria-expanded="false"
       >it software solutions</a
     >

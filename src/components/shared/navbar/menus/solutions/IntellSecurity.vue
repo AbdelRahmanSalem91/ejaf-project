@@ -5,7 +5,6 @@
       href="#"
       id="intellSecurityMenuLinks"
       role="button"
-      data-bs-toggle="dropdown"
       aria-expanded="false"
       >intelligent security solutions</a
     >

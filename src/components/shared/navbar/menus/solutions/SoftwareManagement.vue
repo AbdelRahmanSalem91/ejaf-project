@@ -5,7 +5,6 @@
       href="#"
       id="softwareMangementMenuLinks"
       role="button"
-      data-bs-toggle="dropdown"
       aria-expanded="false"
       >software mangement solutions</a
     >

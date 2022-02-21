@@ -1,5 +1,5 @@
 <template>
-  <a href="#">
+  <a href="#" target="_blank">
     <img :src="require('../../../assets/home/partners/' + car)" alt="" />
   </a>
 </template>

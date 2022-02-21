@@ -1,6 +1,6 @@
 <template>
   <ul
-    class="dropdown-menu drop-menu text-uppercase"
+    class="dropdown-menu drop-menu text-uppercase nested-menu-lvl1"
     aria-labelledby="navbarDropdownMenuLink"
   >
     <li>

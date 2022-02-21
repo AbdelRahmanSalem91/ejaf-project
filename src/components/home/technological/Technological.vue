@@ -1,6 +1,6 @@
 <template>
   <section class="technological mt-5 pt-3">
-    <heading-component title="technology success" class="text-center" />
+    <heading-component title="technology success" class="text-center h1" />
     <description-component :desc="desc" class="technological__desc mt-5 pt-4" />
   </section>
 </template>
@@ -23,5 +23,6 @@ export default {
 <style scoped>
 .technological__desc {
   text-align: start !important;
+  font-size: 14pt !important;
 }
 </style>

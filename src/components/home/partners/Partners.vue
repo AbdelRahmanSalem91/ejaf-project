@@ -1,9 +1,12 @@
 <template>
   <section class="partners mt-5 pt-5">
-    <heading-component title="our partners" class="text-center" />
+    <heading-component
+      title="our partners"
+      class="text-center h1 partners__title"
+    />
     <heading-component
       title="our official partners & vendors"
-      class="text-center px-3"
+      class="text-center px-3 h1 partners__title"
     />
     <div class="carousels-container">
       <carousel-component />
@@ -21,6 +24,9 @@ export default {
 </script>
 
 <style scoped>
+.partners__title {
+  font-size: 36px !important;
+}
 .partners-carousel {
   height: 300px;
 }

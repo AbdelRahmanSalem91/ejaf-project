@@ -1,10 +1,17 @@
 <template>
   <section class="services mt-5 pt-3 text-center">
     <heading-component title="our services" class="title" />
-    <heading-component title="what we offer for you" />
-    <description-component :desc="desc" class="desc" />
+    <span>What We Offer for You</span>
+    <description-component :desc="desc" class="desc mt-3" />
     <div
-      class="services__container d-flex justify-content-between flex-wrap row text-center"
+      class="
+        services__container
+        d-flex
+        justify-content-between
+        flex-wrap
+        row
+        text-center
+      "
     >
       <template v-for="(service, index) in services" :key="index">
         <service-component
@@ -84,8 +91,14 @@ export default {
 </script>
 
 <style scoped>
+.services {
+  padding: 0 15px;
+}
 .title {
   color: var(--red-color) !important;
+}
+span {
+  font-size: 24pt;
 }
 .desc {
   font-size: 18pt;

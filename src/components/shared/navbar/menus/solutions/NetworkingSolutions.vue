@@ -5,7 +5,6 @@
       href="#"
       id="networkingMenuLinks"
       role="button"
-      data-bs-toggle="dropdown"
       aria-expanded="false"
       >networking solutions</a
     >

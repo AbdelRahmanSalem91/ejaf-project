@@ -5,9 +5,9 @@
   >
     <div class="container">
       <div class="logo">
-        <router-link class="navbar-brand" :to="{ name: 'Home' }">
+        <a class="navbar-brand" href="/">
           <img src="../../../assets/logo.png" alt="Ejaf Technology" />
-        </router-link>
+        </a>
       </div>
       <button
         class="navbar-toggler border-white"
@@ -22,7 +22,7 @@
         <span class="nav-icon"></span>
         <span class="nav-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
             <router-link
@@ -66,6 +66,15 @@
               >contact us</router-link
             >
           </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-white text-uppercase basic-link"
+              href="#"
+            >
+              support
+            </a>
+            <support-menu />
+          </li>
         </ul>
       </div>
     </div>
@@ -76,8 +85,9 @@
 import SolutionsMenu from "./menus/SolutionsMenu.vue";
 import ServicesMenu from "./menus/ServicesMenu.vue";
 import "./navbar.css";
+import SupportMenu from "./menus/SupportMenu.vue";
 export default {
-  components: { SolutionsMenu, ServicesMenu },
+  components: { SolutionsMenu, ServicesMenu, SupportMenu },
   name: "navbar-component",
   data() {
     return {

@@ -5,7 +5,6 @@
       href="#"
       id="cyberSecurityMenuLinks"
       role="button"
-      data-bs-toggle="dropdown"
       aria-expanded="false"
       >cyber security solutions</a
     >

@@ -5,7 +5,6 @@
       href="#"
       id="cloudSolutionMenuLinks"
       role="button"
-      data-bs-toggle="dropdown"
       aria-expanded="false"
       >cloud solutions</a
     >

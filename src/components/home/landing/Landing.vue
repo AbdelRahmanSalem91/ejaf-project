@@ -1,9 +1,7 @@
 <template>
   <section class="landing mt-5 pt-5">
     <div class="row flex-column">
-      <h2
-        class="h1 landing__title text-center col-lg-12 w-lg-50 text-lg-start my-5"
-      >
+      <h2 class="h1 landing__title text-center col-lg-12 text-lg-start my-5">
         <span class="auto-type text-uppercase position-relative">{{
           typeValue
         }}</span>
@@ -11,7 +9,7 @@
       </h2>
       <data-component />
     </div>
-    <introduction-section class="pt-lg-5 col-lg-6" />
+    <introduction-section class="pt-lg-5 col-lg-8" />
   </section>
 </template>
 

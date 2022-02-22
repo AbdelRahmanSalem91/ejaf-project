@@ -1,13 +1,29 @@
 <template>
-  <a href="#" target="_blank">
-    <img :src="require('../../../assets/home/partners/' + car)" alt="" />
+  <a
+    href="#"
+    target="_blank"
+    data-bs-toggle="tooltip"
+    data-bs-placement="top"
+    :title="
+      caro.toUpperCase().substring(caro.indexOf('/') + 1, caro.indexOf('.'))
+    "
+    data-bs-animation="true"
+    data-bs-custom-class="tipStyles"
+  >
+    <img :src="require('../../../assets/home/partners/' + caro)" alt="" />
   </a>
 </template>
 
 <script>
+// car.toUpperCase().substring(car.indexOf('/') + 1, car.indexOf('.'))
 export default {
   name: "carousel-items",
   props: ["car"],
+  data: function () {
+    return {
+      caro: this.car,
+    };
+  },
 };
 </script>
 
@@ -15,6 +31,10 @@ export default {
 img {
   max-width: 200px;
   max-height: 200px;
+}
+.tipStyles {
+  background: transparent;
+  color: #fff;
 }
 @media (max-width: 992px) {
   img {

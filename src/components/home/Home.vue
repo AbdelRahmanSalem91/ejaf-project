@@ -41,5 +41,6 @@ video {
   z-index: -1;
   top: -90px;
   left: 50px;
+  height: 100vh;
 }
 </style>

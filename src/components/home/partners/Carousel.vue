@@ -1,41 +1,77 @@
 <template>
   <div
-    class="owl-carousel owl-theme owl-loaded my-5 mx-auto partners-carousel car-1"
+    class="
+      owl-carousel owl-theme owl-loaded
+      my-5
+      mx-auto
+      partners-carousel
+      car-1
+    "
   >
     <template v-for="(car, index) in firstCarousel" :key="index">
       <carousel-items :car="'carousel-1/' + car" />
     </template>
   </div>
   <div
-    class="owl-carousel owl-theme owl-loaded my-5 mx-auto partners-carousel car-2"
+    class="
+      owl-carousel owl-theme owl-loaded
+      my-5
+      mx-auto
+      partners-carousel
+      car-2
+    "
   >
     <template v-for="(car, index) in secondCarousel" :key="index">
       <carousel-items :car="'carousel-2/' + car" />
     </template>
   </div>
   <div
-    class="owl-carousel owl-theme owl-loaded my-5 mx-auto partners-carousel car-3"
+    class="
+      owl-carousel owl-theme owl-loaded
+      my-5
+      mx-auto
+      partners-carousel
+      car-3
+    "
   >
     <template v-for="(car, index) in thirdCarousel" :key="index">
       <carousel-items :car="'carousel-3/' + car" />
     </template>
   </div>
   <div
-    class="owl-carousel owl-theme owl-loaded my-5 mx-auto partners-carousel car-4"
+    class="
+      owl-carousel owl-theme owl-loaded
+      my-5
+      mx-auto
+      partners-carousel
+      car-4
+    "
   >
     <template v-for="(car, index) in fourthCarousel" :key="index">
       <carousel-items :car="'carousel-4/' + car" />
     </template>
   </div>
   <div
-    class="owl-carousel owl-theme owl-loaded my-5 mx-auto partners-carousel car-5"
+    class="
+      owl-carousel owl-theme owl-loaded
+      my-5
+      mx-auto
+      partners-carousel
+      car-5
+    "
   >
     <template v-for="(car, index) in fivthCarousel" :key="index">
       <carousel-items :car="'carousel-5/' + car" />
     </template>
   </div>
   <div
-    class="owl-carousel owl-theme owl-loaded my-5 mx-auto partners-carousel car-6"
+    class="
+      owl-carousel owl-theme owl-loaded
+      my-5
+      mx-auto
+      partners-carousel
+      car-6
+    "
   >
     <template v-for="(car, index) in sixthCarousel" :key="index">
       <carousel-items :car="'carousel-6/' + car" />
@@ -75,7 +111,7 @@ export default {
       "HOTELOGIX.jpg",
       "hp.jpg",
       "HUAWEI.jpg",
-      "IBA2.jpg",
+      "IBM.jpg",
       "Juniper.jpg",
     ];
     const fivthCarousel = [
@@ -108,7 +144,6 @@ export default {
 <style scoped>
 .partners-carousel {
   backface-visibility: visible !important;
-  /* width: 50%; */
   text-align: center;
   touch-action: pan-y;
   user-select: none;

@@ -157,6 +157,10 @@ const SecOperationsPage = () =>
   import(
     /* webpackChunkName: "SecOperationsPage" */ "@/views/security-solutions/SecOperationsPage.vue"
   );
+const BlogPage = () =>
+  import(/* webpackChunkName: "BlogPage" */ "@/views/Blog.vue");
+const BlogPost = () =>
+  import(/* webpackChunkName: "BlogPost" */ "@/views/BlogPost.vue");
 
 const routes = [
   {
@@ -363,6 +367,18 @@ const routes = [
     path: "/security-operations",
     name: "security-operations",
     component: SecOperationsPage,
+  },
+  {
+    path: "/blog",
+    name: "blog",
+    component: BlogPage,
+    children: [
+      {
+        path: ":title",
+        component: BlogPost,
+        props: true
+      },
+    ],
   },
   {
     path: "/:catchAll(.*)*",

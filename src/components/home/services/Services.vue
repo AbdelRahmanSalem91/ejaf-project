@@ -4,14 +4,7 @@
     <span>What We Offer for You</span>
     <description-component :desc="desc" class="desc mt-3" />
     <div
-      class="
-        services__container
-        d-flex
-        justify-content-between
-        flex-wrap
-        row
-        text-center
-      "
+      class="services__container d-flex justify-content-between flex-wrap row text-center"
     >
       <template v-for="(service, index) in services" :key="index">
         <service-component

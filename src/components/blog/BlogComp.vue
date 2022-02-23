@@ -29,16 +29,20 @@
               :key="index"
             >
               <div class="col-4 img">
-                <img
-                  class="w-100"
-                  :src="require('../../assets/home/blog/' + post.img)"
-                  :alt="post.title"
-                />
+                <router-link to="/">
+                  <img
+                    class="w-100"
+                    :src="require('../../assets/home/blog/' + post.img)"
+                    :alt="post.title"
+                  />
+                </router-link>
               </div>
               <div class="col-8 link">
-                <h6 class="title">
-                  {{ post.title }}
-                </h6>
+                <router-link to="/">
+                  <h6 class="title">
+                    {{ post.title }}
+                  </h6>
+                </router-link>
                 <small class="date">
                   {{ post.date }}
                 </small>
@@ -172,5 +176,11 @@ export default {
 .popular-posts input {
   outline: 0;
   border-radius: 3px;
+}
+h6.title {
+  transition: all 0.3s;
+}
+h6.title:hover {
+  color: var(--red-color);
 }
 </style>

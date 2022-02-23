@@ -84,8 +84,8 @@
 <script>
 import SolutionsMenu from "./menus/SolutionsMenu.vue";
 import ServicesMenu from "./menus/ServicesMenu.vue";
-import "./navbar.css";
 import SupportMenu from "./menus/SupportMenu.vue";
+import "./navbar.css";
 export default {
   components: { SolutionsMenu, ServicesMenu, SupportMenu },
   name: "navbar-component",

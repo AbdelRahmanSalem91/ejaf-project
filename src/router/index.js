@@ -161,6 +161,10 @@ const BlogPage = () =>
   import(/* webpackChunkName: "BlogPage" */ "@/views/Blog.vue");
 const BlogPost = () =>
   import(/* webpackChunkName: "BlogPost" */ "@/views/BlogPost.vue");
+const LoginPage = () =>
+  import(/* webpackChunkName: "LoginPage" */ "@/views/LoginPage.vue");
+const SubmitTicketPage = () =>
+  import(/* webpackChunkName: "SubmitTicketPage" */ "@/views/SubmitTicket.vue");
 
 const routes = [
   {
@@ -369,6 +373,16 @@ const routes = [
     component: SecOperationsPage,
   },
   {
+    path: "/login",
+    name: "login",
+    component: LoginPage,
+  },
+  {
+    path: "/submit-ticket",
+    name: "submit-ticket",
+    component: SubmitTicketPage,
+  },
+  {
     path: "/blog",
     name: "blog",
     component: BlogPage,
@@ -376,7 +390,7 @@ const routes = [
       {
         path: ":title",
         component: BlogPost,
-        props: true
+        props: true,
       },
     ],
   },

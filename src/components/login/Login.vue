@@ -51,7 +51,12 @@
             </div>
             <a href="#" class="forgot">Forgot Password?</a>
           </div>
-          <button class="btn text-white w-100 mt-3">Login</button>
+          <button
+            class="btn text-white w-100 mt-3"
+            @click.prevent="handleLogin"
+          >
+            Login
+          </button>
         </form>
       </div>
     </div>
@@ -61,6 +66,11 @@
 <script>
 export default {
   name: "login-component",
+  methods: {
+    handleLogin() {
+      console.log("clicked");
+    },
+  },
 };
 </script>
 

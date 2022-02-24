@@ -26,7 +26,7 @@
         <button
           class="btn next"
           @click="incrementSupportNo"
-          v-if="supportNo !== this.supportData.firstData.length + 1"
+          v-if="supportNo === this.supportData.firstData.length"
         >
           Next
         </button>

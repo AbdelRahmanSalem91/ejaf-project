@@ -1,6 +1,6 @@
 <template>
   <div class="card w-100 border-0 post-card">
-    <router-link to="/">
+    <router-link :to="`/blog/${post.id}`">
       <img
         :src="require('../../assets/home/blog/' + post.img)"
         class="card-img-top"
@@ -8,7 +8,7 @@
       />
     </router-link>
     <div class="card-body px-0 py-4">
-      <router-link :to="`/blog/${post.title}`">
+      <router-link :to="`/blog/${post.id}`">
         <h2 class="card-title post-title">{{ post.title }}</h2>
       </router-link>
       <div class="post-info d-flex">
@@ -25,12 +25,14 @@
       <p class="card-text">
         {{ post.desc }}
       </p>
-      <router-link to="/" class="read-more">Read more ...</router-link>
+      <router-link :to="`/blog/${post.id}`" class="read-more"
+        >Read more ...</router-link
+      >
     </div>
   </div>
 </template>
 
-<script>
+<script scoped>
 export default {
   name: "post-component",
   props: ["post"],

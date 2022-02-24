@@ -32,9 +32,15 @@
 </template>
 
 <script>
+import Posts from "./Posts";
+
 export default {
   name: "blog-aside",
-  props: ["posts"],
+  data() {
+    return {
+      posts: Posts,
+    };
+  },
 };
 </script>
 

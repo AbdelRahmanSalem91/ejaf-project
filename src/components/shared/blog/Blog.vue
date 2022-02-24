@@ -33,7 +33,11 @@
       </div>
     </div>
     <div class="text-center my-5 py-5 col-8 mx-auto">
-      <img src="../../../assets/logo.png" alt="Ejaf Technology" class="logo" />
+      <img
+        src="../../../assets/logo.png"
+        alt="Ejaf Technology"
+        class="logo w-75"
+      />
     </div>
   </section>
 </template>
@@ -58,12 +62,9 @@ small {
 a {
   color: var(--red-color) !important;
 }
-.blog .logo {
-  width: 50%;
-}
-@media (max-width: 991px) {
+@media (min-width: 991px) {
   .blog .logo {
-    max-width: 80%;
+    max-width: 50% !important;
   }
 }
 </style>

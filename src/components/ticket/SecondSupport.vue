@@ -1,6 +1,6 @@
 <template>
   <div
-    class="support form-check w-50 d-flex flex-column justify-content-center align-items-start py-4 px-2"
+    class="support form-check d-flex flex-column justify-content-center align-items-start py-4 px-2"
   >
     <h4 class="text-start">{{ support.q }}</h4>
     <div class="answers">
@@ -29,6 +29,14 @@ export default {
 </script>
 
 <style scoped>
+.support {
+  width: 50%;
+}
+@media (max-width: 650px) {
+  .support {
+    width: 100% !important;
+  }
+}
 input {
   margin-left: 0 !important;
   margin-right: 10px;

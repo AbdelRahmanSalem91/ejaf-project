@@ -19,14 +19,14 @@
           :support="supportData.fourthData"
         />
       </div>
-      <div class="button d-flex justify-content-between w-50 mx-auto">
+      <div class="button d-flex justify-content-between mx-auto">
         <button class="btn" @click="decrementSupportNo" v-if="supportNo > 0">
           Back
         </button>
         <button
           class="btn next"
           @click="incrementSupportNo"
-          v-if="supportNo === this.supportData.firstData.length"
+          v-if="supportNo < this.supportData.firstData.length + 1"
         >
           Next
         </button>
@@ -82,14 +82,6 @@ export default {
     };
   },
   methods: {
-    SupportToggleClass() {
-      this.support = true;
-      this.order = false;
-    },
-    OrderToggleClass() {
-      this.support = false;
-      this.order = true;
-    },
     incrementSupportNo() {
       if (this.supportNo < this.supportData.firstData.length + 1)
         this.supportNo++;
@@ -116,5 +108,13 @@ button:hover {
 }
 button.next {
   margin-left: auto;
+}
+.button {
+  width: 50%;
+}
+@media (max-width: 650px) {
+  .button {
+    width: 100% !important;
+  }
 }
 </style>

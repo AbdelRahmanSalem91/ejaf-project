@@ -15,7 +15,7 @@
             <post-comp :post="post" />
           </div>
         </div>
-        <blog-aside class="col-lg-4" :posts="posts" />
+        <blog-aside class="col-lg-4" />
       </div>
     </div>
   </div>

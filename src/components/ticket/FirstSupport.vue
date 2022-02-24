@@ -1,29 +1,32 @@
 <template>
-  <div
-    class="support form-check w-25 d-flex flex-column justify-content-center align-items-center py-5 px-2"
-    v-for="(supp, index) in support"
-    :key="index"
-  >
-    <label
-      class="form-check-label text-center mb-4 img-label"
-      :for="supp.label"
+  <div class="row">
+    <div
+      class="support form-check col-md-6 d-flex flex-column justify-content-center align-items-center py-5 px-2"
+      v-for="(supp, index) in support"
+      :key="index"
     >
-      <img
-        :src="require('../../assets/ticket/' + supp.img + '.png')"
-        alt=""
-        class="w-100"
-      />
-    </label>
-    <div class="mx-auto w-25">
-      <input
-        class="form-check-input"
-        type="radio"
-        name="choose"
-        :id="supp.label"
-      />
-      <label class="form-check-label text-white text-label" :for="supp.label">
-        {{ supp.label }}
+      <label
+        class="form-check-label text-center mb-4 img-label"
+        :for="supp.label"
+      >
+        <img
+          :src="require('../../assets/ticket/' + supp.img + '.png')"
+          alt=""
+          class="w-100"
+        />
       </label>
+      <div class="mx-auto">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="choose"
+          :id="supp.label"
+          required
+        />
+        <label class="form-check-label text-white text-label" :for="supp.label">
+          {{ supp.label }}
+        </label>
+      </div>
     </div>
   </div>
 </template>
@@ -32,12 +35,6 @@
 export default {
   name: "first-support",
   props: ["support"],
-  data() {
-    return {
-      supportClass: false,
-      orderClass: false,
-    };
-  },
 };
 </script>
 

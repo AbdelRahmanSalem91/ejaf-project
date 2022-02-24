@@ -40,7 +40,11 @@ video {
   object-fit: cover;
   z-index: -1;
   top: -90px;
-  left: 50px;
   height: 100vh;
+}
+@media (min-width: 991px) {
+  video {
+    left: 50px;
+  }
 }
 </style>

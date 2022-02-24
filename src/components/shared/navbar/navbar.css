@@ -94,7 +94,7 @@ a {
     background-color: var(--main-color) !important;
   }
   .nav .logo {
-    width: 60%;
+    width: 50%;
   }
 }
 @media (max-width: 1299px) {

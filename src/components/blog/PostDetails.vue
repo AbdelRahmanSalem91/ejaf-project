@@ -13,8 +13,8 @@
       <div class="post col-lg-8">
         <post-details-comp :post="posts[Number(id)]" />
       </div>
+      <blog-aside class="col-lg-4" />
     </div>
-    <blog-aside class="col-lg-4" />
     <div class="button d-flex justify-content-between w-75 mb-5">
       <button class="btn" @click.prevent="prev" v-if="id > 0">
         <i class="fa-solid fa-chevron-left"></i>
@@ -35,9 +35,10 @@
 <script>
 import PostDetailsComp from "./PostDetailsComp.vue";
 import Posts from "./Posts";
+import BlogAside from "./BlogAside.vue";
 
 export default {
-  components: { PostDetailsComp },
+  components: { PostDetailsComp, BlogAside },
   name: "post-details",
   data() {
     return {

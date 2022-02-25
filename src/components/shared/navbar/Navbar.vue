@@ -25,11 +25,11 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link
-              class="nav-link active text-uppercase basic-link"
+            <a
+              class="nav-link text-uppercase basic-link home-link"
               aria-current="page"
-              :to="{ name: 'Home' }"
-              >home</router-link
+              href="/"
+              >home</a
             >
           </li>
           <li class="nav-item dropdown">

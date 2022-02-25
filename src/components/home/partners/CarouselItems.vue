@@ -15,7 +15,6 @@
 </template>
 
 <script>
-// car.toUpperCase().substring(car.indexOf('/') + 1, car.indexOf('.'))
 export default {
   name: "carousel-items",
   props: ["car"],

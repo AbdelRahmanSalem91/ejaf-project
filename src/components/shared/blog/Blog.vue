@@ -32,7 +32,7 @@
         </template>
       </div>
     </div>
-    <div class="text-center my-5 py-5 col-8 mx-auto">
+    <div class="text-center my-5 col-8 mx-auto">
       <img
         src="../../../assets/logo.png"
         alt="Ejaf Technology"

@@ -21,8 +21,7 @@ a {
 .logo img {
   max-width: 90%;
 }
-.basic-link:hover,
-.basic-link.active {
+.basic-link:hover {
   color: var(--red-color) !important;
 }
 .drop-menu {
@@ -73,8 +72,6 @@ button,
 .nested-menu-lvl2 {
   font-size: 13px !important;
 }
-
-/* rotate caret on hover */
 .nested-menu-lvl1 > li {
   position: relative;
   width: 220px;

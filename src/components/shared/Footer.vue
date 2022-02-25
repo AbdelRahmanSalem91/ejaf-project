@@ -1,12 +1,12 @@
 <template>
   <footer
-    class="footer d-flex justify-content-center align-items-center flex-column text-center"
+    class="footer d-flex justify-content-center align-items-center flex-column text-center pt-2"
   >
     <span class="copyright">
       &copy; 2021 EJAFTEC. ALL RIGHTS RESERVED. DESIGNED BY
       <a href="#">MAZAJNET</a>
     </span>
-    <ul class="mt-5">
+    <ul class="mt-2">
       <li class="">
         <a href="#">
           <i class="fab fa-facebook-f"></i>
@@ -34,7 +34,6 @@ export default {
 
 <style scoped>
 .footer {
-  height: 200px;
   border-top: 1px solid #020f21;
 }
 .footer,

@@ -1,6 +1,6 @@
 <template>
-  <a
-    href="#"
+  <router-link
+    :to="`/${caro.substring(caro.indexOf('/') + 1, caro.indexOf('.'))}`"
     target="_blank"
     data-bs-toggle="tooltip"
     data-bs-placement="top"
@@ -11,7 +11,7 @@
     data-bs-custom-class="tipStyles"
   >
     <img :src="require('../../../assets/home/partners/' + caro)" alt="" />
-  </a>
+  </router-link>
 </template>
 
 <script>

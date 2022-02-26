@@ -60,9 +60,7 @@ export default {
   methods: {
     next() {
       if (this.id < this.posts.length) {
-        console.log(this.posts.length);
         this.id++;
-        console.log(this.id);
         this.$router.push("/blog/" + this.id);
       }
     },

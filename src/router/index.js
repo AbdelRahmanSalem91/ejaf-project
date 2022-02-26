@@ -1,6 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/views/Home.vue";
 
+const PartnerDetails = () =>
+  import(
+    /* webpackChunkName: "PartnerDetails" */ "@/components/home/partners/PartnerDetails.vue"
+  );
 const AboutUs = () =>
   import(/* webpackChunkName: "AboutUs" */ "@/views/AboutUs.vue");
 const ContactUs = () =>
@@ -173,6 +177,11 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    path: "/:partner",
+    name: "partner-details",
+    component: PartnerDetails,
   },
   {
     path: "/about",
